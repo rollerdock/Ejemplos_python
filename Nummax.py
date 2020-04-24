@@ -14,6 +14,7 @@ def DevuelveMax(num1,num2):
         print("num2 es mayor")
 
     return ret
+    
 
 
 retorno = DevuelveMax(num1,num2)
