@@ -1,3 +1,6 @@
+import subprocess
+subprocess.call('clear')
+
 class Escuela():
     def __init__(self):
         self.nombre = "Mirasan"

@@ -1,4 +1,6 @@
 # Vamos a crear una calculadora
+import subprocess
+subprocess.call('clear')
 
 class calculadora():
 
