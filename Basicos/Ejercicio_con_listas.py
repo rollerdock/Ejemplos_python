@@ -14,11 +14,13 @@ print(Recorrerlista(lista))
 busca = input ("Que número quieres buscar: ")
 cuenta = lista.count(int(busca))
 
-print (  "hay " + str(cuenta) + " numeros " + busca )
+print (  f"hay  {cuenta}  numeros {busca} ")
 
 lista.sort()
 
-print(Recorrerlista(lista))
+print(f"{Recorrerlista(lista)}")
+
+print(f"la lista tiene {len(lista)}  numeros")
 
 
 
