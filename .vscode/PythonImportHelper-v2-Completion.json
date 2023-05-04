@@ -1,0 +1,979 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "mkdir",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "listdir",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "exists",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "isfile",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "move",
+        "importPath": "shutil",
+        "description": "shutil",
+        "isExtraImport": true,
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "Error",
+        "importPath": "shutil",
+        "description": "shutil",
+        "isExtraImport": true,
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "ArgumentParser",
+        "importPath": "argparse",
+        "description": "argparse",
+        "isExtraImport": true,
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "open",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "open",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "settings",
+        "description": "settings",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "getTimestamp",
+        "importPath": "get_timestamp",
+        "description": "get_timestamp",
+        "isExtraImport": true,
+        "detail": "get_timestamp",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "filetype",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "filetype",
+        "description": "filetype",
+        "detail": "filetype",
+        "documentation": {}
+    },
+    {
+        "label": "dif",
+        "importPath": "difPy",
+        "description": "difPy",
+        "isExtraImport": true,
+        "detail": "difPy",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "TAGS",
+        "importPath": "PIL.ExifTags",
+        "description": "PIL.ExifTags",
+        "isExtraImport": true,
+        "detail": "PIL.ExifTags",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "main.settings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "main.settings",
+        "description": "main.settings",
+        "detail": "main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "renameFiles",
+        "importPath": "main.rename_files",
+        "description": "main.rename_files",
+        "isExtraImport": true,
+        "detail": "main.rename_files",
+        "documentation": {}
+    },
+    {
+        "label": "moveFilesToArchive",
+        "importPath": "main.move_files_to_archive",
+        "description": "main.move_files_to_archive",
+        "isExtraImport": true,
+        "detail": "main.move_files_to_archive",
+        "documentation": {}
+    },
+    {
+        "label": "removeDuplicates",
+        "importPath": "main.remove_duplicates",
+        "description": "main.remove_duplicates",
+        "isExtraImport": true,
+        "detail": "main.remove_duplicates",
+        "documentation": {}
+    },
+    {
+        "label": "createZipArchive",
+        "importPath": "main.create_zip_archive",
+        "description": "main.create_zip_archive",
+        "isExtraImport": true,
+        "detail": "main.create_zip_archive",
+        "documentation": {}
+    },
+    {
+        "label": "pruebas",
+        "importPath": "mispaquetes",
+        "description": "mispaquetes",
+        "isExtraImport": true,
+        "detail": "mispaquetes",
+        "documentation": {}
+    },
+    {
+        "label": "herramientas",
+        "importPath": "mispaquetes",
+        "description": "mispaquetes",
+        "isExtraImport": true,
+        "detail": "mispaquetes",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "dataclasses",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR",
+        "kind": 6,
+        "importPath": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "description": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "peekOfCode": "class COLOR:\n    def __init__(self):\n        self.BLACK           =  \"\\033[30m\"\n        self.RED             =  \"\\033[31m\"\n        self.GREEN           =  \"\\033[32m\"\n        self.YELLOW          =  \"\\033[33m\"\n        self.BLUE            =  \"\\033[34m\"\n        self.MAGENTA         =  \"\\033[35m\"\n        self.CYAN            =  \"\\033[36m\"\n        self.WHITE           =  \"\\033[37m\"",
+        "detail": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "documentation": {}
+    },
+    {
+        "label": "crear_carpetas_si_no_existe",
+        "kind": 2,
+        "importPath": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "description": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "peekOfCode": "def crear_carpetas_si_no_existe(carpetas, ruta=\"./\"):\n    \"\"\"\n        Esta funcion recibe en forma de lista, las carpetas a crear\n        si no existen. Ejemplo de uso:\n            carpetas = [\"documentos\", \"fotos\"]\n            crear_carpetas_si_no_existe(carpetas)\n        Esto comprueba si exite la carpeta documentos y la carpeta fotos,\n        en caso contrario, la crea\n    \"\"\"\n    _COLOR = COLOR()",
+        "detail": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "documentation": {}
+    },
+    {
+        "label": "asociar_carpetas_con_extensiones",
+        "kind": 2,
+        "importPath": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "description": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "peekOfCode": "def asociar_carpetas_con_extensiones(nombre_carpeta, extensiones_de_archivos, ruta=\".\", ArchivosExcepciones=[]):\n    \"\"\"\n        Esta funcion recibe una tupla en el argumento extensiones_de_archivos \n        que contiene las extensiones de los archivos que se quiere\n        guardar en la carpeta que se especificar en el argumento nombre_carpeta.\n        nombre_carpeta es un argumento de tipo string(str), este valor a de ser el nombre\n        de la carpeta a la que se le asociara lass extensiones. Opcionalmente se le puede\n        especificar la ruta a trabajar, con el argumento ruta, el cual a de ser un string.\n        Ejemplo de uso:\n            MisExtensiones = (\".txt\", \".docx\")",
+        "detail": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "description": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "peekOfCode": "__version__ =  2.0\n__autor__   =  \"Mario\"\n__github__  =  \"https://github.com/Maalfer?tab=repositories\"\n__doc__     =  \"Script para organizar archivos en diferentes \"\n__doc__    +=  \"carpetas según la extensión que tengan\"\ndef crear_carpetas_si_no_existe(carpetas, ruta=\"./\"):\n    \"\"\"\n        Esta funcion recibe en forma de lista, las carpetas a crear\n        si no existen. Ejemplo de uso:\n            carpetas = [\"documentos\", \"fotos\"]",
+        "detail": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
+        "documentation": {}
+    },
+    {
+        "label": "ruta",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "description": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "peekOfCode": "ruta = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto.txt\"\narchivo = open(ruta,\"a+\")\n# escribir dentro del archivo\narchivo.write(\"*********** Soy un texto guay ************ \\n \")\n#cerrar archivo\narchivo.close()\n\"\"\"\n#Abrir archivo\nruta = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto.txt\"\narchivo_lectura = open(ruta,\"r\")",
+        "detail": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "documentation": {}
+    },
+    {
+        "label": "archivo",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "description": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "peekOfCode": "archivo = open(ruta,\"a+\")\n# escribir dentro del archivo\narchivo.write(\"*********** Soy un texto guay ************ \\n \")\n#cerrar archivo\narchivo.close()\n\"\"\"\n#Abrir archivo\nruta = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto.txt\"\narchivo_lectura = open(ruta,\"r\")\n# Leer contenido ",
+        "detail": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "documentation": {}
+    },
+    {
+        "label": "ruta",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "description": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "peekOfCode": "ruta = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto.txt\"\narchivo_lectura = open(ruta,\"r\")\n# Leer contenido \n\"\"\"\ncontenido = archivo_lectura.read()\nfor elemento in archivo_lectura:\n    #print(contenido)\n    # Leer contenido y grardarlo en lista \n    lista = archivo_lectura.readline()\n    # print(lista)",
+        "detail": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "documentation": {}
+    },
+    {
+        "label": "archivo_lectura",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "description": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "peekOfCode": "archivo_lectura = open(ruta,\"r\")\n# Leer contenido \n\"\"\"\ncontenido = archivo_lectura.read()\nfor elemento in archivo_lectura:\n    #print(contenido)\n    # Leer contenido y grardarlo en lista \n    lista = archivo_lectura.readline()\n    # print(lista)\n\"\"\"",
+        "detail": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "documentation": {}
+    },
+    {
+        "label": "contenido",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "description": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "peekOfCode": "contenido = archivo_lectura.read()\nfor elemento in archivo_lectura:\n    #print(contenido)\n    # Leer contenido y grardarlo en lista \n    lista = archivo_lectura.readline()\n    # print(lista)\n\"\"\"\nlista = archivo_lectura.readlines()\nfor frase in lista:\n    print(\"- \" + frase)",
+        "detail": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "description": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "peekOfCode": "lista = archivo_lectura.readlines()\nfor frase in lista:\n    print(\"- \" + frase)\narchivo_lectura.close()",
+        "detail": "Avanzado.FICHEROS.abrir_leer_recorrer",
+        "documentation": {}
+    },
+    {
+        "label": "contenido",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.directorios",
+        "description": "Avanzado.FICHEROS.directorios",
+        "peekOfCode": "contenido = os.listdir(\"C:/Users/jaspl/Downloads\")\nfor fichero in contenido:\n    print(fichero + \"\\n\")",
+        "detail": "Avanzado.FICHEROS.directorios",
+        "documentation": {}
+    },
+    {
+        "label": "ruta_original",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "description": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "peekOfCode": "ruta_original = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto.txt\"\nruta_nueva = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto1.txt\"\nshutil.copyfile(ruta_original,ruta_nueva)\n\"\"\"\n#ruta_original= \"C:/Users/jaspl/git/Ejemplos_python/Avanzado/fichero-texto_nuevo.txt\"\n#ruta_original = str(pathlib.Path().absolute()) + \"/Avanzado/fichero-texto_nuevo.txt\"\n#ruta_nueva = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto1.txt\"\n#shutil.move(ruta_original, ruta_nueva)\n#print(ruta_nueva)\n#print(ruta_original)",
+        "detail": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "documentation": {}
+    },
+    {
+        "label": "ruta_nueva",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "description": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "peekOfCode": "ruta_nueva = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto1.txt\"\nshutil.copyfile(ruta_original,ruta_nueva)\n\"\"\"\n#ruta_original= \"C:/Users/jaspl/git/Ejemplos_python/Avanzado/fichero-texto_nuevo.txt\"\n#ruta_original = str(pathlib.Path().absolute()) + \"/Avanzado/fichero-texto_nuevo.txt\"\n#ruta_nueva = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto1.txt\"\n#shutil.move(ruta_original, ruta_nueva)\n#print(ruta_nueva)\n#print(ruta_original)\n########################################EJEMPLO DE BORRADO #############################################",
+        "detail": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "documentation": {}
+    },
+    {
+        "label": "#ruta_original",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "description": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "peekOfCode": "#ruta_original = str(pathlib.Path().absolute()) + \"/Avanzado/fichero-texto_nuevo.txt\"\n#ruta_nueva = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto1.txt\"\n#shutil.move(ruta_original, ruta_nueva)\n#print(ruta_nueva)\n#print(ruta_original)\n########################################EJEMPLO DE BORRADO #############################################\n# os.remove (ruta_nueva)\n############################################# EJEMPLO DE COMO SACAR RUTA ABSOLUTA #######################\nprint(os.path.abspath(\"./\"))\n############################################ COMPROBAR SI UN FICHERO EXISTE ####################################",
+        "detail": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "documentation": {}
+    },
+    {
+        "label": "#ruta_nueva",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "description": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "peekOfCode": "#ruta_nueva = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto1.txt\"\n#shutil.move(ruta_original, ruta_nueva)\n#print(ruta_nueva)\n#print(ruta_original)\n########################################EJEMPLO DE BORRADO #############################################\n# os.remove (ruta_nueva)\n############################################# EJEMPLO DE COMO SACAR RUTA ABSOLUTA #######################\nprint(os.path.abspath(\"./\"))\n############################################ COMPROBAR SI UN FICHERO EXISTE ####################################\nruta_nueva = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto1.txt\"",
+        "detail": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "documentation": {}
+    },
+    {
+        "label": "ruta_nueva",
+        "kind": 5,
+        "importPath": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "description": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "peekOfCode": "ruta_nueva = str(pathlib.Path().absolute()) + \"/Avanzado/FICHEROS/fichero-texto1.txt\"\nif os.path.isfile(ruta_nueva):\n    print(\"Existe el archivo.\")",
+        "detail": "Avanzado.FICHEROS.ejemplo_move_remove_existe",
+        "documentation": {}
+    },
+    {
+        "label": "createZipArchive",
+        "kind": 2,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.create_zip_archive",
+        "description": "Avanzado.FILES.photography_archiver-main.main.create_zip_archive",
+        "peekOfCode": "def createZipArchive():\n    sourcePath = './' + settings.INPUT_FOLDER_NAME\n    destinationPath = './' + settings.BACKUP_FOLDER_NAME + '/' + getTimestamp()\n    shutil.make_archive(destinationPath, settings.ARCHIVE_FORMAT, sourcePath)",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.create_zip_archive",
+        "documentation": {}
+    },
+    {
+        "label": "getTimestamp",
+        "kind": 2,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.get_timestamp",
+        "description": "Avanzado.FILES.photography_archiver-main.main.get_timestamp",
+        "peekOfCode": "def getTimestamp():\n    timestamp = datetime.now()\n    return timestamp.strftime(settings.TIMESTAMP_FORMAT_CODE)",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.get_timestamp",
+        "documentation": {}
+    },
+    {
+        "label": "moveFilesToArchive",
+        "kind": 2,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.move_files_to_archive",
+        "description": "Avanzado.FILES.photography_archiver-main.main.move_files_to_archive",
+        "peekOfCode": "def moveFilesToArchive():\n    source = './' + settings.INPUT_FOLDER_NAME + '/'\n    fileNames = os.listdir(source)\n    destination = ''\n    for fileName in fileNames:\n        kind = filetype.guess(source + fileName)\n        if kind.extension in settings.SUPPORTED_IMAGE_EXTENSIONS:\n            destination = settings.PHOTOGRAPHY_ARCHIVE_FOLDER_NAME\n        elif kind.extension in settings.SUPPORTED_VIDEO_EXTENSIONS:\n            destination = settings.VIDEO_ARCHIVE_FOLDER_NAME",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.move_files_to_archive",
+        "documentation": {}
+    },
+    {
+        "label": "removeDuplicates",
+        "kind": 2,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.remove_duplicates",
+        "description": "Avanzado.FILES.photography_archiver-main.main.remove_duplicates",
+        "peekOfCode": "def removeDuplicates():\n    # Remove duplicates new images in input folder\n    dif(str(Path().absolute()) + '/' + settings.INPUT_FOLDER_NAME, None,\n        'normal', 50, True, False, True, True)\n    # Remove new images in inout folder, that duplicate archived images\n    dif(str(Path().absolute()) + '/' + settings.PHOTOGRAPHY_ARCHIVE_FOLDER_NAME,\n        str(Path().absolute()) + '/' + settings.INPUT_FOLDER_NAME,\n        'normal', 50, True, False, True, True)",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.remove_duplicates",
+        "documentation": {}
+    },
+    {
+        "label": "renameFiles",
+        "kind": 2,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.rename_files",
+        "description": "Avanzado.FILES.photography_archiver-main.main.rename_files",
+        "peekOfCode": "def renameFiles():\n    basePath = './' + settings.INPUT_FOLDER_NAME + '/'\n    fileNames = os.listdir(basePath)\n    for fileName in fileNames:\n        filePath = basePath + fileName\n        kind = filetype.guess(filePath)\n        newFileName = fileName\n        if kind.extension in settings.SUPPORTED_IMAGE_EXTENSIONS:\n            newFileName = getNewImageFilename(filePath, kind.extension)\n        elif kind.extension in settings.SUPPORTED_VIDEO_EXTENSIONS:",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.rename_files",
+        "documentation": {}
+    },
+    {
+        "label": "getNewVideoFileName",
+        "kind": 2,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.rename_files",
+        "description": "Avanzado.FILES.photography_archiver-main.main.rename_files",
+        "peekOfCode": "def getNewVideoFileName(fileExtension):\n    return uuid.uuid4().hex + '.' + fileExtension\ndef getNewImageFilename(filePath, fileExtension):\n    image = Image.open(filePath)\n    exif = image.getexif()\n    image.close()\n    timestamp = datetime.strptime(exif.get(306), '%Y:%m:%d %H:%M:%S')\n    make = exif.get(271)\n    model = exif.get(272)\n    return timestamp.strftime(settings.TIMESTAMP_FORMAT_CODE) + '_' + make.replace(",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.rename_files",
+        "documentation": {}
+    },
+    {
+        "label": "getNewImageFilename",
+        "kind": 2,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.rename_files",
+        "description": "Avanzado.FILES.photography_archiver-main.main.rename_files",
+        "peekOfCode": "def getNewImageFilename(filePath, fileExtension):\n    image = Image.open(filePath)\n    exif = image.getexif()\n    image.close()\n    timestamp = datetime.strptime(exif.get(306), '%Y:%m:%d %H:%M:%S')\n    make = exif.get(271)\n    model = exif.get(272)\n    return timestamp.strftime(settings.TIMESTAMP_FORMAT_CODE) + '_' + make.replace(\n        ' ', '_') + '_' + model.replace(' ', '_') + '.' + fileExtension",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.rename_files",
+        "documentation": {}
+    },
+    {
+        "label": "INPUT_FOLDER_NAME",
+        "kind": 5,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "description": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "peekOfCode": "INPUT_FOLDER_NAME = 'input_files'\nBACKUP_FOLDER_NAME = 'backup'\nPHOTOGRAPHY_ARCHIVE_FOLDER_NAME = 'photography_archive'\nVIDEO_ARCHIVE_FOLDER_NAME = 'video_archive'\nTIMESTAMP_FORMAT_CODE = '%y%m%d_%H%M%S'\nARCHIVE_FORMAT = 'zip'\nSUPPORTED_IMAGE_EXTENSIONS = ['jpg', 'nef']\nSUPPORTED_VIDEO_EXTENSIONS = ['mp4']",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BACKUP_FOLDER_NAME",
+        "kind": 5,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "description": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "peekOfCode": "BACKUP_FOLDER_NAME = 'backup'\nPHOTOGRAPHY_ARCHIVE_FOLDER_NAME = 'photography_archive'\nVIDEO_ARCHIVE_FOLDER_NAME = 'video_archive'\nTIMESTAMP_FORMAT_CODE = '%y%m%d_%H%M%S'\nARCHIVE_FORMAT = 'zip'\nSUPPORTED_IMAGE_EXTENSIONS = ['jpg', 'nef']\nSUPPORTED_VIDEO_EXTENSIONS = ['mp4']",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PHOTOGRAPHY_ARCHIVE_FOLDER_NAME",
+        "kind": 5,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "description": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "peekOfCode": "PHOTOGRAPHY_ARCHIVE_FOLDER_NAME = 'photography_archive'\nVIDEO_ARCHIVE_FOLDER_NAME = 'video_archive'\nTIMESTAMP_FORMAT_CODE = '%y%m%d_%H%M%S'\nARCHIVE_FORMAT = 'zip'\nSUPPORTED_IMAGE_EXTENSIONS = ['jpg', 'nef']\nSUPPORTED_VIDEO_EXTENSIONS = ['mp4']",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "VIDEO_ARCHIVE_FOLDER_NAME",
+        "kind": 5,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "description": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "peekOfCode": "VIDEO_ARCHIVE_FOLDER_NAME = 'video_archive'\nTIMESTAMP_FORMAT_CODE = '%y%m%d_%H%M%S'\nARCHIVE_FORMAT = 'zip'\nSUPPORTED_IMAGE_EXTENSIONS = ['jpg', 'nef']\nSUPPORTED_VIDEO_EXTENSIONS = ['mp4']",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIMESTAMP_FORMAT_CODE",
+        "kind": 5,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "description": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "peekOfCode": "TIMESTAMP_FORMAT_CODE = '%y%m%d_%H%M%S'\nARCHIVE_FORMAT = 'zip'\nSUPPORTED_IMAGE_EXTENSIONS = ['jpg', 'nef']\nSUPPORTED_VIDEO_EXTENSIONS = ['mp4']",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ARCHIVE_FORMAT",
+        "kind": 5,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "description": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "peekOfCode": "ARCHIVE_FORMAT = 'zip'\nSUPPORTED_IMAGE_EXTENSIONS = ['jpg', 'nef']\nSUPPORTED_VIDEO_EXTENSIONS = ['mp4']",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SUPPORTED_IMAGE_EXTENSIONS",
+        "kind": 5,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "description": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "peekOfCode": "SUPPORTED_IMAGE_EXTENSIONS = ['jpg', 'nef']\nSUPPORTED_VIDEO_EXTENSIONS = ['mp4']",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SUPPORTED_VIDEO_EXTENSIONS",
+        "kind": 5,
+        "importPath": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "description": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "peekOfCode": "SUPPORTED_VIDEO_EXTENSIONS = ['mp4']",
+        "detail": "Avanzado.FILES.photography_archiver-main.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "createFolders",
+        "kind": 2,
+        "importPath": "Avanzado.FILES.photography_archiver-main.init",
+        "description": "Avanzado.FILES.photography_archiver-main.init",
+        "peekOfCode": "def createFolders():\n    folders = [settings.INPUT_FOLDER_NAME,\n               settings.BACKUP_FOLDER_NAME,\n               settings.PHOTOGRAPHY_ARCHIVE_FOLDER_NAME,\n               settings.VIDEO_ARCHIVE_FOLDER_NAME]\n    for folder in folders:\n        if not os.path.exists('./' + folder):\n            os.mkdir(folder)\ncreateFolders()",
+        "detail": "Avanzado.FILES.photography_archiver-main.init",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Avanzado.MANEJO_ERRORES.capturando_errores",
+        "description": "Avanzado.MANEJO_ERRORES.capturando_errores",
+        "peekOfCode": "lista = [1,2,3,4,5,6,7,8,9,10,11,12]\ntry:\n    numero = int(input(\"Introduce el numero a buscar: \"))\n    def Numesta(numero):\n        while int(numero) not in lista:\n            numero = input(\"Introduce el numero a buscar: \")\n        if int(numero) in lista:\n            print(\"El numero está!\")\n        else:\n            numero = int(input(\"No está en la lista,Introduce un valor valido: \"))",
+        "detail": "Avanzado.MANEJO_ERRORES.capturando_errores",
+        "documentation": {}
+    },
+    {
+        "label": "nombreCompleto",
+        "kind": 2,
+        "importPath": "Avanzado.Paquetes.mispaquetes.herramientas",
+        "description": "Avanzado.Paquetes.mispaquetes.herramientas",
+        "peekOfCode": "def nombreCompleto(nombre,apellidos):\n    print(f\"Hola  {nombre} {apellidos}\")",
+        "detail": "Avanzado.Paquetes.mispaquetes.herramientas",
+        "documentation": {}
+    },
+    {
+        "label": "probando",
+        "kind": 2,
+        "importPath": "Avanzado.Paquetes.mispaquetes.pruebas",
+        "description": "Avanzado.Paquetes.mispaquetes.pruebas",
+        "peekOfCode": "def probando():\n    print(\"Esto es una prueba de un modulo en un paquete\")",
+        "detail": "Avanzado.Paquetes.mispaquetes.pruebas",
+        "documentation": {}
+    },
+    {
+        "label": "calculadora",
+        "kind": 6,
+        "importPath": "Avanzado.POO.calculadora",
+        "description": "Avanzado.POO.calculadora",
+        "peekOfCode": "class calculadora():\n    Num1 = 0\n    Num2 = 0\n    def sumar(self):\n        print (\"El resultado es : \",self.Num1+self.Num2)\n    def restar(self):\n        print (\"El resultado es : \",self.Num1-self.Num2)\n    def multiplicar(self):\n        print (\"El resultado es : \",self.Num1*self.Num2)\n    def dividir(self):",
+        "detail": "Avanzado.POO.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Avanzado.POO.calculadora",
+        "description": "Avanzado.POO.calculadora",
+        "peekOfCode": "p = calculadora()\np.arranca()",
+        "detail": "Avanzado.POO.calculadora",
+        "documentation": {}
+    },
+    {
+        "label": "Persona",
+        "kind": 6,
+        "importPath": "Avanzado.POO.clases",
+        "description": "Avanzado.POO.clases",
+        "peekOfCode": "class Persona:\n    def __init__(self): \n        print (\"Creo un objeto\")\n    def caracteristicas(self,otro):\n        self.otro = 103\n        print(\"Has pasado caracteristicas\",self.otro,otro)\nprint(\"fuera de la clase\")\np=Persona()\np.caracteristicas(100)",
+        "detail": "Avanzado.POO.clases",
+        "documentation": {}
+    },
+    {
+        "label": "Galleta",
+        "kind": 6,
+        "importPath": "Avanzado.POO.clases2",
+        "description": "Avanzado.POO.clases2",
+        "peekOfCode": "class Galleta():\n    chocolate = False\n    def __init__(self):\n        print(\"se acaba de crear una galleta\")\n    def chocolatear(self):\n        self.chocolate = True\n    def tiene_chocolate(self):\n        if (self.chocolate):\n            print(\"Soy una galleta de choco\")\n        else:",
+        "detail": "Avanzado.POO.clases2",
+        "documentation": {}
+    },
+    {
+        "label": "Escuela",
+        "kind": 6,
+        "importPath": "Avanzado.POO.clases3",
+        "description": "Avanzado.POO.clases3",
+        "peekOfCode": "class Escuela():\n    def __init__(self):\n        self.nombre = \"Mirasan\"\n        self.numalumnos = 300\n    def sumaalumnos (self):\n        self.numalumnos = self.numalumnos + 50\n        print(\"Hay \", self.numalumnos)\n    def resta(self):\n        self.numalumnos = self.numalumnos - 50\n    def total(self):",
+        "detail": "Avanzado.POO.clases3",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Avanzado.POO.clases3",
+        "description": "Avanzado.POO.clases3",
+        "peekOfCode": "p = Escuela()\nprint(p.numalumnos)\np.sumaalumnos()\nprint(\"hay: \",p.numalumnos)\np.resta()\nprint(\"hay: \",p.numalumnos)\np.sumaalumnos()\nprint(\"hay: \",p.numalumnos)\np.sumaalumnos()\nprint(\"hay: \",p.numalumnos)",
+        "detail": "Avanzado.POO.clases3",
+        "documentation": {}
+    },
+    {
+        "label": "Coche",
+        "kind": 6,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "class Coche:\n    # Atributos o propiedades (variables)\n    # caracteristicas del coche\n    color = \"Rojo\"\n    marca = \"Ferrari\"\n    modelo = \"Aventador\"\n    velocidad = 300\n    caballaje = 500\n    plazas = 2\n# Métodos, son acciones que hace el objeto, en (coche) (funciones)",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "acelerar",
+        "kind": 2,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def acelerar(self):\n    self.velocidad +=1\ndef frenar(self):\n    self.velocidad -= 1\ndef getVelocidad(self):\n    return self.velocidad \n# Fin definición clase\n# Crear objetos\ncoche = Coche()\nprint(coche.marca, coche.color, coche.velocidad )",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "frenar",
+        "kind": 2,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def frenar(self):\n    self.velocidad -= 1\ndef getVelocidad(self):\n    return self.velocidad \n# Fin definición clase\n# Crear objetos\ncoche = Coche()\nprint(coche.marca, coche.color, coche.velocidad )\ncoche.acelerar()\ncoche.acelerar()",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "getVelocidad",
+        "kind": 2,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def getVelocidad(self):\n    return self.velocidad \n# Fin definición clase\n# Crear objetos\ncoche = Coche()\nprint(coche.marca, coche.color, coche.velocidad )\ncoche.acelerar()\ncoche.acelerar()\ncoche.acelerar()\ncoche.acelerar",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "coche",
+        "kind": 5,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "coche = Coche()\nprint(coche.marca, coche.color, coche.velocidad )\ncoche.acelerar()\ncoche.acelerar()\ncoche.acelerar()\ncoche.acelerar\nprint(coche.marca, coche.color, coche.velocidad )",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "ComPalindromo",
+        "kind": 2,
+        "importPath": "Avanzado.palindromo",
+        "description": "Avanzado.palindromo",
+        "peekOfCode": "def ComPalindromo(a):\n    longitud = len(a)\n    cadena = \"\"\n    while longitud>0:\n        cadena = cadena + a[longitud-1]\n        longitud -= 1\n    a = a.replace(\" \",\"\")    \n    texto = cadena.replace(\" \",\"\")\n    if texto == a:\n        print(\"Es un palindromo\")",
+        "detail": "Avanzado.palindromo",
+        "documentation": {}
+    },
+    {
+        "label": "pa",
+        "kind": 5,
+        "importPath": "Avanzado.palindromo",
+        "description": "Avanzado.palindromo",
+        "peekOfCode": "pa = \"Amo la paloma\"\na= pa.lower()\ndef ComPalindromo(a):\n    longitud = len(a)\n    cadena = \"\"\n    while longitud>0:\n        cadena = cadena + a[longitud-1]\n        longitud -= 1\n    a = a.replace(\" \",\"\")    \n    texto = cadena.replace(\" \",\"\")",
+        "detail": "Avanzado.palindromo",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 2,
+        "importPath": "Basicos.Funciones.sumadosnum",
+        "description": "Basicos.Funciones.sumadosnum",
+        "peekOfCode": "def suma(a,b):  \n    resultado=a+b\n    return resultado\nresultado=suma(a,b)\nprint(resultado)",
+        "detail": "Basicos.Funciones.sumadosnum",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Basicos.Añadir_elementos_lista",
+        "description": "Basicos.Añadir_elementos_lista",
+        "peekOfCode": "lista = [ ]\ncontador = 0\nwf = input (\"Elige si quieres que lo haga con while o for, escribe while o for : \")\nif wf == \"while\" :\n    print (\"has elegido while\")    \n    while (len(lista) < 120) :\n        lista.append(f\"Elemento {contador} \")\n        contador += 1\nelse: # bloque for\n    print (\"has elegido for\")",
+        "detail": "Basicos.Añadir_elementos_lista",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "Basicos.Añadir_elementos_lista",
+        "description": "Basicos.Añadir_elementos_lista",
+        "peekOfCode": "contador = 0\nwf = input (\"Elige si quieres que lo haga con while o for, escribe while o for : \")\nif wf == \"while\" :\n    print (\"has elegido while\")    \n    while (len(lista) < 120) :\n        lista.append(f\"Elemento {contador} \")\n        contador += 1\nelse: # bloque for\n    print (\"has elegido for\")\n    for numero in range(0,120):",
+        "detail": "Basicos.Añadir_elementos_lista",
+        "documentation": {}
+    },
+    {
+        "label": "wf",
+        "kind": 5,
+        "importPath": "Basicos.Añadir_elementos_lista",
+        "description": "Basicos.Añadir_elementos_lista",
+        "peekOfCode": "wf = input (\"Elige si quieres que lo haga con while o for, escribe while o for : \")\nif wf == \"while\" :\n    print (\"has elegido while\")    \n    while (len(lista) < 120) :\n        lista.append(f\"Elemento {contador} \")\n        contador += 1\nelse: # bloque for\n    print (\"has elegido for\")\n    for numero in range(0,120):\n        lista.append(f\"Elemento {contador} \")",
+        "detail": "Basicos.Añadir_elementos_lista",
+        "documentation": {}
+    },
+    {
+        "label": "variable",
+        "kind": 5,
+        "importPath": "Basicos.Comprueba_si_lista_vacia",
+        "description": "Basicos.Comprueba_si_lista_vacia",
+        "peekOfCode": "variable = \"Llenamos la variable con minusculas\"\nif variable:\n    print (\"Llena \\n \")\n    print(variable.upper())\nelse:\n    print(\"vacia\")",
+        "detail": "Basicos.Comprueba_si_lista_vacia",
+        "documentation": {}
+    },
+    {
+        "label": "matriz",
+        "kind": 5,
+        "importPath": "Basicos.ejemplo_matriz",
+        "description": "Basicos.ejemplo_matriz",
+        "peekOfCode": "matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nfilas=len(matriz)\nColumnas=len(matriz[0])\nfor filas in matriz:\n    print(matriz[filas][Columnas])\n    for Columnas in matriz:\n        print(matriz[filas][Columnas])\n        \"\"\"Ejemplo del 2021\"\"\"",
+        "detail": "Basicos.ejemplo_matriz",
+        "documentation": {}
+    },
+    {
+        "label": "Recorrerlist",
+        "kind": 2,
+        "importPath": "Basicos.Ejercicio_con_listas",
+        "description": "Basicos.Ejercicio_con_listas",
+        "peekOfCode": "def Recorrerlista (listado):\n    result = \" \"\n    for item in listado:\n        result += str(item)\n        result += \" \"\n        cuenta = result.count\n    return  result,cuenta\nprint(Recorrerlista(lista))\nbusca = input (\"Que número quieres buscar: \")\ncuenta = lista.count(int(busca))",
+        "detail": "Basicos.Ejercicio_con_listas",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Basicos.Ejercicio_con_listas",
+        "description": "Basicos.Ejercicio_con_listas",
+        "peekOfCode": "lista = [8,7,6,5,4,3,2,1,1]\ndef Recorrerlista (listado):\n    result = \" \"\n    for item in listado:\n        result += str(item)\n        result += \" \"\n        cuenta = result.count\n    return  result,cuenta\nprint(Recorrerlista(lista))\nbusca = input (\"Que número quieres buscar: \")",
+        "detail": "Basicos.Ejercicio_con_listas",
+        "documentation": {}
+    },
+    {
+        "label": "busca",
+        "kind": 5,
+        "importPath": "Basicos.Ejercicio_con_listas",
+        "description": "Basicos.Ejercicio_con_listas",
+        "peekOfCode": "busca = input (\"Que número quieres buscar: \")\ncuenta = lista.count(int(busca))\nprint (  f\"hay  {cuenta}  numeros {busca} \")\nlista.sort()\nprint(f\"{Recorrerlista(lista)}\")\nprint(f\"la lista tiene {len(lista)}  numeros\")",
+        "detail": "Basicos.Ejercicio_con_listas",
+        "documentation": {}
+    },
+    {
+        "label": "cuenta",
+        "kind": 5,
+        "importPath": "Basicos.Ejercicio_con_listas",
+        "description": "Basicos.Ejercicio_con_listas",
+        "peekOfCode": "cuenta = lista.count(int(busca))\nprint (  f\"hay  {cuenta}  numeros {busca} \")\nlista.sort()\nprint(f\"{Recorrerlista(lista)}\")\nprint(f\"la lista tiene {len(lista)}  numeros\")",
+        "detail": "Basicos.Ejercicio_con_listas",
+        "documentation": {}
+    },
+    {
+        "label": "DevuelveMax",
+        "kind": 2,
+        "importPath": "Basicos.Nummax",
+        "description": "Basicos.Nummax",
+        "peekOfCode": "def DevuelveMax(num1,num2):\n    ret=int(0)\n    if num1>num2:\n        print(\" num1 es mayor\")\n    else:\n        print(\"num2 es mayor\")\n    return ret\nretorno = DevuelveMax(num1,num2)\nprint(retorno)",
+        "detail": "Basicos.Nummax",
+        "documentation": {}
+    },
+    {
+        "label": "retorno",
+        "kind": 5,
+        "importPath": "Basicos.Nummax",
+        "description": "Basicos.Nummax",
+        "peekOfCode": "retorno = DevuelveMax(num1,num2)\nprint(retorno)",
+        "detail": "Basicos.Nummax",
+        "documentation": {}
+    },
+    {
+        "label": "comprobarTipado",
+        "kind": 2,
+        "importPath": "Basicos.tipos_de_variable",
+        "description": "Basicos.tipos_de_variable",
+        "peekOfCode": "def comprobarTipado(variable):\n    print(f\"La variable es de tipo : {type(variable)} \")\n\"\"\"\nprint(f\"listaList es de tipo : {type(listalist)} \")\nprint(f\"listacgart es de tipo : {type(listahart)} \")\nprint(f\"listaInt es de tipo : {type(listaInt)} \")\nprint(f\"listaBool es de tipo : {type(listaBool)} \")\n\"\"\"\ncomprobarTipado(listaInt)",
+        "detail": "Basicos.tipos_de_variable",
+        "documentation": {}
+    },
+    {
+        "label": "listalist",
+        "kind": 5,
+        "importPath": "Basicos.tipos_de_variable",
+        "description": "Basicos.tipos_de_variable",
+        "peekOfCode": "listalist = []\nlistahart = \"\"\nlistaInt = 0\nlistaBool = True\ndef comprobarTipado(variable):\n    print(f\"La variable es de tipo : {type(variable)} \")\n\"\"\"\nprint(f\"listaList es de tipo : {type(listalist)} \")\nprint(f\"listacgart es de tipo : {type(listahart)} \")\nprint(f\"listaInt es de tipo : {type(listaInt)} \")",
+        "detail": "Basicos.tipos_de_variable",
+        "documentation": {}
+    },
+    {
+        "label": "listahart",
+        "kind": 5,
+        "importPath": "Basicos.tipos_de_variable",
+        "description": "Basicos.tipos_de_variable",
+        "peekOfCode": "listahart = \"\"\nlistaInt = 0\nlistaBool = True\ndef comprobarTipado(variable):\n    print(f\"La variable es de tipo : {type(variable)} \")\n\"\"\"\nprint(f\"listaList es de tipo : {type(listalist)} \")\nprint(f\"listacgart es de tipo : {type(listahart)} \")\nprint(f\"listaInt es de tipo : {type(listaInt)} \")\nprint(f\"listaBool es de tipo : {type(listaBool)} \")",
+        "detail": "Basicos.tipos_de_variable",
+        "documentation": {}
+    },
+    {
+        "label": "listaInt",
+        "kind": 5,
+        "importPath": "Basicos.tipos_de_variable",
+        "description": "Basicos.tipos_de_variable",
+        "peekOfCode": "listaInt = 0\nlistaBool = True\ndef comprobarTipado(variable):\n    print(f\"La variable es de tipo : {type(variable)} \")\n\"\"\"\nprint(f\"listaList es de tipo : {type(listalist)} \")\nprint(f\"listacgart es de tipo : {type(listahart)} \")\nprint(f\"listaInt es de tipo : {type(listaInt)} \")\nprint(f\"listaBool es de tipo : {type(listaBool)} \")\n\"\"\"",
+        "detail": "Basicos.tipos_de_variable",
+        "documentation": {}
+    },
+    {
+        "label": "listaBool",
+        "kind": 5,
+        "importPath": "Basicos.tipos_de_variable",
+        "description": "Basicos.tipos_de_variable",
+        "peekOfCode": "listaBool = True\ndef comprobarTipado(variable):\n    print(f\"La variable es de tipo : {type(variable)} \")\n\"\"\"\nprint(f\"listaList es de tipo : {type(listalist)} \")\nprint(f\"listacgart es de tipo : {type(listahart)} \")\nprint(f\"listaInt es de tipo : {type(listaInt)} \")\nprint(f\"listaBool es de tipo : {type(listaBool)} \")\n\"\"\"\ncomprobarTipado(listaInt)",
+        "detail": "Basicos.tipos_de_variable",
+        "documentation": {}
+    },
+    {
+        "label": "fecha",
+        "kind": 5,
+        "importPath": "Intermedio.modulo_datetime",
+        "description": "Intermedio.modulo_datetime",
+        "peekOfCode": "fecha = datetime.date(2023, 5, 2)\nprint(fecha)  # 2023-05-02\n# Obtener la fecha actual\nfecha_actual = datetime.date.today()\nprint(fecha_actual)  # Ejemplo de salida: 2023-05-02\n# Crear una hora usando la clase time\nhora = datetime.time(10, 30, 0)\nprint(hora)  # 10:30:00\n# Crear una fecha y hora usando la clase datetime\nfecha_hora = datetime.datetime(2023, 5, 2, 10, 30, 0)",
+        "detail": "Intermedio.modulo_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "fecha_actual",
+        "kind": 5,
+        "importPath": "Intermedio.modulo_datetime",
+        "description": "Intermedio.modulo_datetime",
+        "peekOfCode": "fecha_actual = datetime.date.today()\nprint(fecha_actual)  # Ejemplo de salida: 2023-05-02\n# Crear una hora usando la clase time\nhora = datetime.time(10, 30, 0)\nprint(hora)  # 10:30:00\n# Crear una fecha y hora usando la clase datetime\nfecha_hora = datetime.datetime(2023, 5, 2, 10, 30, 0)\nprint(fecha_hora)  # 2023-05-02 10:30:00\n# Obtener la fecha y hora actual\nfecha_hora_actual = datetime.datetime.now()",
+        "detail": "Intermedio.modulo_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "hora",
+        "kind": 5,
+        "importPath": "Intermedio.modulo_datetime",
+        "description": "Intermedio.modulo_datetime",
+        "peekOfCode": "hora = datetime.time(10, 30, 0)\nprint(hora)  # 10:30:00\n# Crear una fecha y hora usando la clase datetime\nfecha_hora = datetime.datetime(2023, 5, 2, 10, 30, 0)\nprint(fecha_hora)  # 2023-05-02 10:30:00\n# Obtener la fecha y hora actual\nfecha_hora_actual = datetime.datetime.now()\nprint(fecha_hora_actual)  # Ejemplo de salida: 2023-05-02 11:00:00.123456\n# Realizar operaciones con fechas y horas\nfecha2 = datetime.date(2023, 5, 5)",
+        "detail": "Intermedio.modulo_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "fecha_hora",
+        "kind": 5,
+        "importPath": "Intermedio.modulo_datetime",
+        "description": "Intermedio.modulo_datetime",
+        "peekOfCode": "fecha_hora = datetime.datetime(2023, 5, 2, 10, 30, 0)\nprint(fecha_hora)  # 2023-05-02 10:30:00\n# Obtener la fecha y hora actual\nfecha_hora_actual = datetime.datetime.now()\nprint(fecha_hora_actual)  # Ejemplo de salida: 2023-05-02 11:00:00.123456\n# Realizar operaciones con fechas y horas\nfecha2 = datetime.date(2023, 5, 5)\ndiferencia = fecha2 - fecha\nprint(diferencia.days)  # 3\nfecha = datetime.datetime.now()",
+        "detail": "Intermedio.modulo_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "fecha_hora_actual",
+        "kind": 5,
+        "importPath": "Intermedio.modulo_datetime",
+        "description": "Intermedio.modulo_datetime",
+        "peekOfCode": "fecha_hora_actual = datetime.datetime.now()\nprint(fecha_hora_actual)  # Ejemplo de salida: 2023-05-02 11:00:00.123456\n# Realizar operaciones con fechas y horas\nfecha2 = datetime.date(2023, 5, 5)\ndiferencia = fecha2 - fecha\nprint(diferencia.days)  # 3\nfecha = datetime.datetime.now()\n# Formatear la fecha en el formato \"dd/mm/yyyy\"\nfecha_formateada = fecha.strftime('%d/%m/%Y')\nprint(fecha_formateada)  # 02/05/2023",
+        "detail": "Intermedio.modulo_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "fecha2",
+        "kind": 5,
+        "importPath": "Intermedio.modulo_datetime",
+        "description": "Intermedio.modulo_datetime",
+        "peekOfCode": "fecha2 = datetime.date(2023, 5, 5)\ndiferencia = fecha2 - fecha\nprint(diferencia.days)  # 3\nfecha = datetime.datetime.now()\n# Formatear la fecha en el formato \"dd/mm/yyyy\"\nfecha_formateada = fecha.strftime('%d/%m/%Y')\nprint(fecha_formateada)  # 02/05/2023",
+        "detail": "Intermedio.modulo_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "diferencia",
+        "kind": 5,
+        "importPath": "Intermedio.modulo_datetime",
+        "description": "Intermedio.modulo_datetime",
+        "peekOfCode": "diferencia = fecha2 - fecha\nprint(diferencia.days)  # 3\nfecha = datetime.datetime.now()\n# Formatear la fecha en el formato \"dd/mm/yyyy\"\nfecha_formateada = fecha.strftime('%d/%m/%Y')\nprint(fecha_formateada)  # 02/05/2023",
+        "detail": "Intermedio.modulo_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "fecha",
+        "kind": 5,
+        "importPath": "Intermedio.modulo_datetime",
+        "description": "Intermedio.modulo_datetime",
+        "peekOfCode": "fecha = datetime.datetime.now()\n# Formatear la fecha en el formato \"dd/mm/yyyy\"\nfecha_formateada = fecha.strftime('%d/%m/%Y')\nprint(fecha_formateada)  # 02/05/2023",
+        "detail": "Intermedio.modulo_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "fecha_formateada",
+        "kind": 5,
+        "importPath": "Intermedio.modulo_datetime",
+        "description": "Intermedio.modulo_datetime",
+        "peekOfCode": "fecha_formateada = fecha.strftime('%d/%m/%Y')\nprint(fecha_formateada)  # 02/05/2023",
+        "detail": "Intermedio.modulo_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "matriz",
+        "kind": 5,
+        "importPath": "JupyterNotebook.ejemplo_matriz (1)",
+        "description": "JupyterNotebook.ejemplo_matriz (1)",
+        "peekOfCode": "matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nfilas=len(matriz)\nColumnas=len(matriz[0])\nfor filas in matriz:\n    print(matriz[filas][Columnas])\n    for Columnas in matriz:\n        print(matriz[filas][Columnas])",
+        "detail": "JupyterNotebook.ejemplo_matriz (1)",
+        "documentation": {}
+    },
+    {
+        "label": "matriz",
+        "kind": 5,
+        "importPath": "JupyterNotebook.ejemplo_matriz",
+        "description": "JupyterNotebook.ejemplo_matriz",
+        "peekOfCode": "matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nfilas=len(matriz)\nColumnas=len(matriz[0])\nfor filas in matriz:\n    print(matriz[filas][Columnas])\n    for Columnas in matriz:\n        print(matriz[filas][Columnas])",
+        "detail": "JupyterNotebook.ejemplo_matriz",
+        "documentation": {}
+    }
+]
