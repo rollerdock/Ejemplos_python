@@ -1,4 +1,4 @@
-import dataclasses
+
 
 
 #Un palindromo es una palabra ofrase que se escribe igual de delante para atras que de atras para delante.
@@ -8,18 +8,20 @@ import dataclasses
 # Amo la paloma
 
 
-pa = "Amo la paloma"
-a= pa.lower()
+a = "Amo la paloma"
+
 
 def ComPalindromo(a):
-    longitud = len(a)
-    cadena = ""
-    while longitud>0:
-        cadena = cadena + a[longitud-1]
-        longitud -= 1
+
+    b = a
     a = a.replace(" ","")    
-    texto = cadena.replace(" ","")
-    if texto == a:
+    a = a[::-1]
+    a = a.lower() 
+    
+    b = b.replace(" ","")
+    b = b.lower() 
+    
+    if b == a:
         print("Es un palindromo")
     else:
         print("No es un palindromo")

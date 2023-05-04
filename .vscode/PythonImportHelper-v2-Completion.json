@@ -266,15 +266,6 @@
         "documentation": {}
     },
     {
-        "label": "dataclasses",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
         "label": "math",
         "kind": 6,
         "isExtraImport": true,
@@ -711,16 +702,16 @@
         "kind": 2,
         "importPath": "Avanzado.palindromo",
         "description": "Avanzado.palindromo",
-        "peekOfCode": "def ComPalindromo(a):\n    longitud = len(a)\n    cadena = \"\"\n    while longitud>0:\n        cadena = cadena + a[longitud-1]\n        longitud -= 1\n    a = a.replace(\" \",\"\")    \n    texto = cadena.replace(\" \",\"\")\n    if texto == a:\n        print(\"Es un palindromo\")",
+        "peekOfCode": "def ComPalindromo(a):\n    b = a\n    a = a.replace(\" \",\"\")    \n    a = a[::-1]\n    a = a.lower() \n    b = b.replace(\" \",\"\")\n    b = b.lower() \n    if b == a:\n        print(\"Es un palindromo\")\n    else:",
         "detail": "Avanzado.palindromo",
         "documentation": {}
     },
     {
-        "label": "pa",
+        "label": "a",
         "kind": 5,
         "importPath": "Avanzado.palindromo",
         "description": "Avanzado.palindromo",
-        "peekOfCode": "pa = \"Amo la paloma\"\na= pa.lower()\ndef ComPalindromo(a):\n    longitud = len(a)\n    cadena = \"\"\n    while longitud>0:\n        cadena = cadena + a[longitud-1]\n        longitud -= 1\n    a = a.replace(\" \",\"\")    \n    texto = cadena.replace(\" \",\"\")",
+        "peekOfCode": "a = \"Amo la paloma\"\ndef ComPalindromo(a):\n    b = a\n    a = a.replace(\" \",\"\")    \n    a = a[::-1]\n    a = a.lower() \n    b = b.replace(\" \",\"\")\n    b = b.lower() \n    if b == a:\n        print(\"Es un palindromo\")",
         "detail": "Avanzado.palindromo",
         "documentation": {}
     },
