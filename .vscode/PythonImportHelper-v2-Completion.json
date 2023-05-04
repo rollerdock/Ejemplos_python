@@ -653,6 +653,96 @@
         "documentation": {}
     },
     {
+        "label": "PC",
+        "kind": 6,
+        "importPath": "Avanzado.POO.clases_4",
+        "description": "Avanzado.POO.clases_4",
+        "peekOfCode": "class PC:\n    def __init__(self, microprocesador, memoria, color):\n        self.microprocesador = microprocesador\n        self.memoria = memoria\n        self.color = color\nmipc = PC(\"i5\", 16, \"Negro\")\nmipc.color = \"Azul\"\nmipc.memoria = 32\nmipc.microprocesador = \"i7\"\nmipc2 = PC(\"i5\", 16, \"Rojo\")",
+        "detail": "Avanzado.POO.clases_4",
+        "documentation": {}
+    },
+    {
+        "label": "arranca",
+        "kind": 2,
+        "importPath": "Avanzado.POO.clases_4",
+        "description": "Avanzado.POO.clases_4",
+        "peekOfCode": "def arranca(cls):\n    print(\"El PC acaba de encender y es de color:\", cls.color)\nprint(mipc.color, mipc.memoria, mipc.microprocesador)\nprint(mipc2.color, mipc2.memoria, mipc2.microprocesador)",
+        "detail": "Avanzado.POO.clases_4",
+        "documentation": {}
+    },
+    {
+        "label": "mipc",
+        "kind": 5,
+        "importPath": "Avanzado.POO.clases_4",
+        "description": "Avanzado.POO.clases_4",
+        "peekOfCode": "mipc = PC(\"i5\", 16, \"Negro\")\nmipc.color = \"Azul\"\nmipc.memoria = 32\nmipc.microprocesador = \"i7\"\nmipc2 = PC(\"i5\", 16, \"Rojo\")\nmipc2.color = \"Rojo\"\nmipc2.memoria = 16\nmipc2.microprocesador = \"i3\"\n@classmethod\ndef arranca(cls):",
+        "detail": "Avanzado.POO.clases_4",
+        "documentation": {}
+    },
+    {
+        "label": "mipc.color",
+        "kind": 5,
+        "importPath": "Avanzado.POO.clases_4",
+        "description": "Avanzado.POO.clases_4",
+        "peekOfCode": "mipc.color = \"Azul\"\nmipc.memoria = 32\nmipc.microprocesador = \"i7\"\nmipc2 = PC(\"i5\", 16, \"Rojo\")\nmipc2.color = \"Rojo\"\nmipc2.memoria = 16\nmipc2.microprocesador = \"i3\"\n@classmethod\ndef arranca(cls):\n    print(\"El PC acaba de encender y es de color:\", cls.color)",
+        "detail": "Avanzado.POO.clases_4",
+        "documentation": {}
+    },
+    {
+        "label": "mipc.memoria",
+        "kind": 5,
+        "importPath": "Avanzado.POO.clases_4",
+        "description": "Avanzado.POO.clases_4",
+        "peekOfCode": "mipc.memoria = 32\nmipc.microprocesador = \"i7\"\nmipc2 = PC(\"i5\", 16, \"Rojo\")\nmipc2.color = \"Rojo\"\nmipc2.memoria = 16\nmipc2.microprocesador = \"i3\"\n@classmethod\ndef arranca(cls):\n    print(\"El PC acaba de encender y es de color:\", cls.color)\nprint(mipc.color, mipc.memoria, mipc.microprocesador)",
+        "detail": "Avanzado.POO.clases_4",
+        "documentation": {}
+    },
+    {
+        "label": "mipc.microprocesador",
+        "kind": 5,
+        "importPath": "Avanzado.POO.clases_4",
+        "description": "Avanzado.POO.clases_4",
+        "peekOfCode": "mipc.microprocesador = \"i7\"\nmipc2 = PC(\"i5\", 16, \"Rojo\")\nmipc2.color = \"Rojo\"\nmipc2.memoria = 16\nmipc2.microprocesador = \"i3\"\n@classmethod\ndef arranca(cls):\n    print(\"El PC acaba de encender y es de color:\", cls.color)\nprint(mipc.color, mipc.memoria, mipc.microprocesador)\nprint(mipc2.color, mipc2.memoria, mipc2.microprocesador)",
+        "detail": "Avanzado.POO.clases_4",
+        "documentation": {}
+    },
+    {
+        "label": "mipc2",
+        "kind": 5,
+        "importPath": "Avanzado.POO.clases_4",
+        "description": "Avanzado.POO.clases_4",
+        "peekOfCode": "mipc2 = PC(\"i5\", 16, \"Rojo\")\nmipc2.color = \"Rojo\"\nmipc2.memoria = 16\nmipc2.microprocesador = \"i3\"\n@classmethod\ndef arranca(cls):\n    print(\"El PC acaba de encender y es de color:\", cls.color)\nprint(mipc.color, mipc.memoria, mipc.microprocesador)\nprint(mipc2.color, mipc2.memoria, mipc2.microprocesador)",
+        "detail": "Avanzado.POO.clases_4",
+        "documentation": {}
+    },
+    {
+        "label": "mipc2.color",
+        "kind": 5,
+        "importPath": "Avanzado.POO.clases_4",
+        "description": "Avanzado.POO.clases_4",
+        "peekOfCode": "mipc2.color = \"Rojo\"\nmipc2.memoria = 16\nmipc2.microprocesador = \"i3\"\n@classmethod\ndef arranca(cls):\n    print(\"El PC acaba de encender y es de color:\", cls.color)\nprint(mipc.color, mipc.memoria, mipc.microprocesador)\nprint(mipc2.color, mipc2.memoria, mipc2.microprocesador)",
+        "detail": "Avanzado.POO.clases_4",
+        "documentation": {}
+    },
+    {
+        "label": "mipc2.memoria",
+        "kind": 5,
+        "importPath": "Avanzado.POO.clases_4",
+        "description": "Avanzado.POO.clases_4",
+        "peekOfCode": "mipc2.memoria = 16\nmipc2.microprocesador = \"i3\"\n@classmethod\ndef arranca(cls):\n    print(\"El PC acaba de encender y es de color:\", cls.color)\nprint(mipc.color, mipc.memoria, mipc.microprocesador)\nprint(mipc2.color, mipc2.memoria, mipc2.microprocesador)",
+        "detail": "Avanzado.POO.clases_4",
+        "documentation": {}
+    },
+    {
+        "label": "mipc2.microprocesador",
+        "kind": 5,
+        "importPath": "Avanzado.POO.clases_4",
+        "description": "Avanzado.POO.clases_4",
+        "peekOfCode": "mipc2.microprocesador = \"i3\"\n@classmethod\ndef arranca(cls):\n    print(\"El PC acaba de encender y es de color:\", cls.color)\nprint(mipc.color, mipc.memoria, mipc.microprocesador)\nprint(mipc2.color, mipc2.memoria, mipc2.microprocesador)",
+        "detail": "Avanzado.POO.clases_4",
+        "documentation": {}
+    },
+    {
         "label": "Coche",
         "kind": 6,
         "importPath": "Avanzado.POO.Ejemplo_de_clase",
@@ -695,6 +785,33 @@
         "description": "Avanzado.POO.Ejemplo_de_clase",
         "peekOfCode": "coche = Coche()\nprint(coche.marca, coche.color, coche.velocidad )\ncoche.acelerar()\ncoche.acelerar()\ncoche.acelerar()\ncoche.acelerar\nprint(coche.marca, coche.color, coche.velocidad )",
         "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Avanzado.invertir",
+        "description": "Avanzado.invertir",
+        "peekOfCode": "a = \"Volveran las oscuras golondrinas\"\nlista = [\"Volveran\",\"las\",\"oscuras\",\"palomas\"]\n# a = a[::-1]\n# print(a)\nfrase_al_reves = \"\"\nfor char in a:\n    frase_al_reves = char + frase_al_reves\nlista.reverse()\nprint(frase_al_reves)\nprint(lista)",
+        "detail": "Avanzado.invertir",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Avanzado.invertir",
+        "description": "Avanzado.invertir",
+        "peekOfCode": "lista = [\"Volveran\",\"las\",\"oscuras\",\"palomas\"]\n# a = a[::-1]\n# print(a)\nfrase_al_reves = \"\"\nfor char in a:\n    frase_al_reves = char + frase_al_reves\nlista.reverse()\nprint(frase_al_reves)\nprint(lista)",
+        "detail": "Avanzado.invertir",
+        "documentation": {}
+    },
+    {
+        "label": "frase_al_reves",
+        "kind": 5,
+        "importPath": "Avanzado.invertir",
+        "description": "Avanzado.invertir",
+        "peekOfCode": "frase_al_reves = \"\"\nfor char in a:\n    frase_al_reves = char + frase_al_reves\nlista.reverse()\nprint(frase_al_reves)\nprint(lista)",
+        "detail": "Avanzado.invertir",
         "documentation": {}
     },
     {

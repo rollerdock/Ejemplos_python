@@ -11,10 +11,7 @@ class Coche:
     caballaje = 500
     plazas = 2
 
-
-
-
-
+coche = Coche()
 # Métodos, son acciones que hace el objeto, en (coche) (funciones)
     
 def acelerar(self):
@@ -28,15 +25,10 @@ def getVelocidad(self):
 
 # Crear objetos
 
-coche = Coche()
-
-
-
 print(coche.marca, coche.color, coche.velocidad )
 
+
 coche.acelerar()
 coche.acelerar()
-coche.acelerar()
-coche.acelerar
 
 print(coche.marca, coche.color, coche.velocidad )
