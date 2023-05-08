@@ -1,79 +1,5 @@
 [
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "mkdir",
-        "importPath": "os",
-        "description": "os",
-        "isExtraImport": true,
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "listdir",
-        "importPath": "os",
-        "description": "os",
-        "isExtraImport": true,
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "exists",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "isfile",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "shutil",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "shutil",
-        "description": "shutil",
-        "detail": "shutil",
-        "documentation": {}
-    },
-    {
-        "label": "move",
-        "importPath": "shutil",
-        "description": "shutil",
-        "isExtraImport": true,
-        "detail": "shutil",
-        "documentation": {}
-    },
-    {
-        "label": "Error",
-        "importPath": "shutil",
-        "description": "shutil",
-        "isExtraImport": true,
-        "detail": "shutil",
-        "documentation": {}
-    },
-    {
-        "label": "ArgumentParser",
-        "importPath": "argparse",
-        "description": "argparse",
-        "isExtraImport": true,
-        "detail": "argparse",
-        "documentation": {}
-    },
-    {
         "label": "open",
         "importPath": "io",
         "description": "io",
@@ -104,6 +30,24 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
         "documentation": {}
     },
     {
@@ -281,42 +225,6 @@
         "importPath": "random",
         "description": "random",
         "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "COLOR",
-        "kind": 6,
-        "importPath": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "description": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "peekOfCode": "class COLOR:\n    def __init__(self):\n        self.BLACK           =  \"\\033[30m\"\n        self.RED             =  \"\\033[31m\"\n        self.GREEN           =  \"\\033[32m\"\n        self.YELLOW          =  \"\\033[33m\"\n        self.BLUE            =  \"\\033[34m\"\n        self.MAGENTA         =  \"\\033[35m\"\n        self.CYAN            =  \"\\033[36m\"\n        self.WHITE           =  \"\\033[37m\"",
-        "detail": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "documentation": {}
-    },
-    {
-        "label": "crear_carpetas_si_no_existe",
-        "kind": 2,
-        "importPath": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "description": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "peekOfCode": "def crear_carpetas_si_no_existe(carpetas, ruta=\"./\"):\n    \"\"\"\n        Esta funcion recibe en forma de lista, las carpetas a crear\n        si no existen. Ejemplo de uso:\n            carpetas = [\"documentos\", \"fotos\"]\n            crear_carpetas_si_no_existe(carpetas)\n        Esto comprueba si exite la carpeta documentos y la carpeta fotos,\n        en caso contrario, la crea\n    \"\"\"\n    _COLOR = COLOR()",
-        "detail": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "documentation": {}
-    },
-    {
-        "label": "asociar_carpetas_con_extensiones",
-        "kind": 2,
-        "importPath": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "description": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "peekOfCode": "def asociar_carpetas_con_extensiones(nombre_carpeta, extensiones_de_archivos, ruta=\".\", ArchivosExcepciones=[]):\n    \"\"\"\n        Esta funcion recibe una tupla en el argumento extensiones_de_archivos \n        que contiene las extensiones de los archivos que se quiere\n        guardar en la carpeta que se especificar en el argumento nombre_carpeta.\n        nombre_carpeta es un argumento de tipo string(str), este valor a de ser el nombre\n        de la carpeta a la que se le asociara lass extensiones. Opcionalmente se le puede\n        especificar la ruta a trabajar, con el argumento ruta, el cual a de ser un string.\n        Ejemplo de uso:\n            MisExtensiones = (\".txt\", \".docx\")",
-        "detail": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "documentation": {}
-    },
-    {
-        "label": "__version__",
-        "kind": 5,
-        "importPath": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "description": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
-        "peekOfCode": "__version__ =  2.0\n__autor__   =  \"Mario\"\n__github__  =  \"https://github.com/Maalfer?tab=repositories\"\n__doc__     =  \"Script para organizar archivos en diferentes \"\n__doc__    +=  \"carpetas según la extensión que tengan\"\ndef crear_carpetas_si_no_existe(carpetas, ruta=\"./\"):\n    \"\"\"\n        Esta funcion recibe en forma de lista, las carpetas a crear\n        si no existen. Ejemplo de uso:\n            carpetas = [\"documentos\", \"fotos\"]",
-        "detail": "Avanzado.FICHEROS.ORGANIZA_ARCHIVOS.Organizar-Archivos-Por-Su-Extension.Orden",
         "documentation": {}
     },
     {
@@ -752,38 +660,11 @@
         "documentation": {}
     },
     {
-        "label": "acelerar",
-        "kind": 2,
-        "importPath": "Avanzado.POO.Ejemplo_de_clase",
-        "description": "Avanzado.POO.Ejemplo_de_clase",
-        "peekOfCode": "def acelerar(self):\n    self.velocidad +=1\ndef frenar(self):\n    self.velocidad -= 1\ndef getVelocidad(self):\n    return self.velocidad \n# Fin definición clase\n# Crear objetos\ncoche = Coche()\nprint(coche.marca, coche.color, coche.velocidad )",
-        "detail": "Avanzado.POO.Ejemplo_de_clase",
-        "documentation": {}
-    },
-    {
-        "label": "frenar",
-        "kind": 2,
-        "importPath": "Avanzado.POO.Ejemplo_de_clase",
-        "description": "Avanzado.POO.Ejemplo_de_clase",
-        "peekOfCode": "def frenar(self):\n    self.velocidad -= 1\ndef getVelocidad(self):\n    return self.velocidad \n# Fin definición clase\n# Crear objetos\ncoche = Coche()\nprint(coche.marca, coche.color, coche.velocidad )\ncoche.acelerar()\ncoche.acelerar()",
-        "detail": "Avanzado.POO.Ejemplo_de_clase",
-        "documentation": {}
-    },
-    {
-        "label": "getVelocidad",
-        "kind": 2,
-        "importPath": "Avanzado.POO.Ejemplo_de_clase",
-        "description": "Avanzado.POO.Ejemplo_de_clase",
-        "peekOfCode": "def getVelocidad(self):\n    return self.velocidad \n# Fin definición clase\n# Crear objetos\ncoche = Coche()\nprint(coche.marca, coche.color, coche.velocidad )\ncoche.acelerar()\ncoche.acelerar()\ncoche.acelerar()\ncoche.acelerar",
-        "detail": "Avanzado.POO.Ejemplo_de_clase",
-        "documentation": {}
-    },
-    {
         "label": "coche",
         "kind": 5,
         "importPath": "Avanzado.POO.Ejemplo_de_clase",
         "description": "Avanzado.POO.Ejemplo_de_clase",
-        "peekOfCode": "coche = Coche()\nprint(coche.marca, coche.color, coche.velocidad )\ncoche.acelerar()\ncoche.acelerar()\ncoche.acelerar()\ncoche.acelerar\nprint(coche.marca, coche.color, coche.velocidad )",
+        "peekOfCode": "coche = Coche()\nprint(coche.marca, coche.color, coche.marca)\ncoche.acelerar()\ncoche.acelerar()\nprint(coche.marca, coche.color, coche.velocidad)",
         "detail": "Avanzado.POO.Ejemplo_de_clase",
         "documentation": {}
     },
@@ -812,6 +693,24 @@
         "description": "Avanzado.invertir",
         "peekOfCode": "frase_al_reves = \"\"\nfor char in a:\n    frase_al_reves = char + frase_al_reves\nlista.reverse()\nprint(frase_al_reves)\nprint(lista)",
         "detail": "Avanzado.invertir",
+        "documentation": {}
+    },
+    {
+        "label": "usuarios",
+        "kind": 5,
+        "importPath": "Avanzado.Ordenar_listas",
+        "description": "Avanzado.Ordenar_listas",
+        "peekOfCode": "usuarios = [[4,\"Chanchito\"],[1,\"felipe\"],[5,\"Pulga\"]]\nusuarios.sort(key=lambda el: el[0],reverse=False)\nprint(usuarios)\n# nombre = []\n# # for usuario in usuarios:\n# #         nombre.append(usuario[1])\n# # print(nombre)\nprint(\"##################################################################\")\nnombres=[]\nnombres = [usuario[1] for usuario in usuarios]",
+        "detail": "Avanzado.Ordenar_listas",
+        "documentation": {}
+    },
+    {
+        "label": "nombres",
+        "kind": 5,
+        "importPath": "Avanzado.Ordenar_listas",
+        "description": "Avanzado.Ordenar_listas",
+        "peekOfCode": "nombres = [usuario[1] for usuario in usuarios]\nprint(nombres)",
+        "detail": "Avanzado.Ordenar_listas",
         "documentation": {}
     },
     {
