@@ -1,5 +1,14 @@
 [
     {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
         "label": "open",
         "importPath": "io",
         "description": "io",
@@ -225,6 +234,33 @@
         "importPath": "random",
         "description": "random",
         "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "conexion",
+        "kind": 5,
+        "importPath": "Avanzado.Bases_de_datos.conexion",
+        "description": "Avanzado.Bases_de_datos.conexion",
+        "peekOfCode": "conexion = sqlite3.connect(\n    'C:/Users/jaspl/PYTHON/Ejemplos_python/Avanzado/Bases_de_datos/pruebas.db')\n# Crear cursor\ncursor = conexion.cursor()\n# Crear tabla\ncursor.execute(\n    'CREATE TABLE IF NOT EXISTS productos(id INTEGER PRIMARY KEY AUTOINCREMENT,titulo VARCHAR(255),descripcion TEXT,precio INTEGER)')\nconexion.commit()\n# Insertar datos\ncursor.execute(",
+        "detail": "Avanzado.Bases_de_datos.conexion",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "Avanzado.Bases_de_datos.conexion",
+        "description": "Avanzado.Bases_de_datos.conexion",
+        "peekOfCode": "cursor = conexion.cursor()\n# Crear tabla\ncursor.execute(\n    'CREATE TABLE IF NOT EXISTS productos(id INTEGER PRIMARY KEY AUTOINCREMENT,titulo VARCHAR(255),descripcion TEXT,precio INTEGER)')\nconexion.commit()\n# Insertar datos\ncursor.execute(\n    \"INSERT INTO productos VALUES (null, 'calcetines', 'Unos calcetines muy bonitos', 12)\")\nconexion.commit()\n# Cerrar conexión",
+        "detail": "Avanzado.Bases_de_datos.conexion",
+        "documentation": {}
+    },
+    {
+        "label": "datos",
+        "kind": 5,
+        "importPath": "Avanzado.Bases_de_datos.conexion",
+        "description": "Avanzado.Bases_de_datos.conexion",
+        "peekOfCode": "datos = cursor.fetchall()\n# Imprimir los datos\nfor fila in datos:\n    print(fila)\n# Cerrar conexión\nconexion.close()\n# ideas paara precticar:\n# rear las funciones conectar,cerrar,crear tabla, insertar en tabla, leer en tabla",
+        "detail": "Avanzado.Bases_de_datos.conexion",
         "documentation": {}
     },
     {
