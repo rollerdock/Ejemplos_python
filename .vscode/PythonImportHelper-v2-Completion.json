@@ -1006,6 +1006,42 @@
         "documentation": {}
     },
     {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Avanzado.subproces",
+        "description": "Avanzado.subproces",
+        "peekOfCode": "a = 0\ni = 0\nz = i\nnumcarpetas = int(input(\"Cuantas carpetas quieres: \"))\nfor num in range(0, numcarpetas):\n    nom = \"dir\"+str(z)\n    subprocess.run(['cd', nom])\n    subprocess.call(['mkdir', nom])\n    print(subprocess.call('pwd'))\n    subprocess.run(['cd', nom])",
+        "detail": "Avanzado.subproces",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Avanzado.subproces",
+        "description": "Avanzado.subproces",
+        "peekOfCode": "i = 0\nz = i\nnumcarpetas = int(input(\"Cuantas carpetas quieres: \"))\nfor num in range(0, numcarpetas):\n    nom = \"dir\"+str(z)\n    subprocess.run(['cd', nom])\n    subprocess.call(['mkdir', nom])\n    print(subprocess.call('pwd'))\n    subprocess.run(['cd', nom])\n    print(subprocess.call('pwd'))",
+        "detail": "Avanzado.subproces",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Avanzado.subproces",
+        "description": "Avanzado.subproces",
+        "peekOfCode": "z = i\nnumcarpetas = int(input(\"Cuantas carpetas quieres: \"))\nfor num in range(0, numcarpetas):\n    nom = \"dir\"+str(z)\n    subprocess.run(['cd', nom])\n    subprocess.call(['mkdir', nom])\n    print(subprocess.call('pwd'))\n    subprocess.run(['cd', nom])\n    print(subprocess.call('pwd'))\n    i += 1",
+        "detail": "Avanzado.subproces",
+        "documentation": {}
+    },
+    {
+        "label": "numcarpetas",
+        "kind": 5,
+        "importPath": "Avanzado.subproces",
+        "description": "Avanzado.subproces",
+        "peekOfCode": "numcarpetas = int(input(\"Cuantas carpetas quieres: \"))\nfor num in range(0, numcarpetas):\n    nom = \"dir\"+str(z)\n    subprocess.run(['cd', nom])\n    subprocess.call(['mkdir', nom])\n    print(subprocess.call('pwd'))\n    subprocess.run(['cd', nom])\n    print(subprocess.call('pwd'))\n    i += 1\n    z = i",
+        "detail": "Avanzado.subproces",
+        "documentation": {}
+    },
+    {
         "label": "suma",
         "kind": 2,
         "importPath": "Basicos.Funciones.sumadosnum",
