@@ -194,6 +194,23 @@
         "documentation": {}
     },
     {
+        "label": "coche1",
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "isExtraImport": true,
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
         "label": "pruebas",
         "importPath": "mispaquetes",
         "description": "mispaquetes",
@@ -207,15 +224,6 @@
         "description": "mispaquetes",
         "isExtraImport": true,
         "detail": "mispaquetes",
-        "documentation": {}
-    },
-    {
-        "label": "subprocess",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "subprocess",
-        "description": "subprocess",
-        "detail": "subprocess",
         "documentation": {}
     },
     {
@@ -525,21 +533,57 @@
         "documentation": {}
     },
     {
-        "label": "nombreCompleto",
-        "kind": 2,
-        "importPath": "Avanzado.Paquetes.mispaquetes.herramientas",
-        "description": "Avanzado.Paquetes.mispaquetes.herramientas",
-        "peekOfCode": "def nombreCompleto(nombre,apellidos):\n    print(f\"Hola  {nombre} {apellidos}\")",
-        "detail": "Avanzado.Paquetes.mispaquetes.herramientas",
+        "label": "Coche",
+        "kind": 6,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "class Coche:\n    # Atributos o propiedades (variables)\n    # caracteristicas del coche de la clase padre\n    ruedas = 4\n    volante = 1\n    def __init__ (self,color,plazas,cv,vel,marca,modelo):\n        self.color = color\n        self.plazas = plazas\n        self.cv = cv\n        self.vel = vel",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
         "documentation": {}
     },
     {
-        "label": "probando",
+        "label": "acelerar",
         "kind": 2,
-        "importPath": "Avanzado.Paquetes.mispaquetes.pruebas",
-        "description": "Avanzado.Paquetes.mispaquetes.pruebas",
-        "peekOfCode": "def probando():\n    print(\"Esto es una prueba de un modulo en un paquete\")",
-        "detail": "Avanzado.Paquetes.mispaquetes.pruebas",
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def acelerar(cls):\n    self.velocidad += 1\ndef frenar(cls):\n    self.velocidad -= 1\ndef getVelocidad(cls):\n    return self.velocidad\n# metodos de instancia\ndef getColor(self):\n    print(coche.color)\n# # Crear objetos",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "frenar",
+        "kind": 2,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def frenar(cls):\n    self.velocidad -= 1\ndef getVelocidad(cls):\n    return self.velocidad\n# metodos de instancia\ndef getColor(self):\n    print(coche.color)\n# # Crear objetos\ncoche1 = Coche(\"rojo\",\"2\",300,350,\"Lamborgini\",\"Diablo\")\nprint(f\"El coche es de la marca {coche1.marca} y modelo {coche1.modelo} \\n\")",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "getVelocidad",
+        "kind": 2,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def getVelocidad(cls):\n    return self.velocidad\n# metodos de instancia\ndef getColor(self):\n    print(coche.color)\n# # Crear objetos\ncoche1 = Coche(\"rojo\",\"2\",300,350,\"Lamborgini\",\"Diablo\")\nprint(f\"El coche es de la marca {coche1.marca} y modelo {coche1.modelo} \\n\")\nprint(f\"Es de color {coche1.color}\\n\")\nprint(f\"Tiene {coche1.ruedas} y {coche1.volante} volante\\n\")",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "getColor",
+        "kind": 2,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def getColor(self):\n    print(coche.color)\n# # Crear objetos\ncoche1 = Coche(\"rojo\",\"2\",300,350,\"Lamborgini\",\"Diablo\")\nprint(f\"El coche es de la marca {coche1.marca} y modelo {coche1.modelo} \\n\")\nprint(f\"Es de color {coche1.color}\\n\")\nprint(f\"Tiene {coche1.ruedas} y {coche1.volante} volante\\n\")\ncoche1.acelerar()\ncoche1.acelerar()\nprint(coche1.vel)",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "coche1",
+        "kind": 5,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "coche1 = Coche(\"rojo\",\"2\",300,350,\"Lamborgini\",\"Diablo\")\nprint(f\"El coche es de la marca {coche1.marca} y modelo {coche1.modelo} \\n\")\nprint(f\"Es de color {coche1.color}\\n\")\nprint(f\"Tiene {coche1.ruedas} y {coche1.volante} volante\\n\")\ncoche1.acelerar()\ncoche1.acelerar()\nprint(coche1.vel)",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
         "documentation": {}
     },
     {
@@ -687,21 +731,39 @@
         "documentation": {}
     },
     {
-        "label": "Coche",
-        "kind": 6,
-        "importPath": "Avanzado.POO.Ejemplo_de_clase",
-        "description": "Avanzado.POO.Ejemplo_de_clase",
-        "peekOfCode": "class Coche:\n    # Atributos o propiedades (variables)\n    # caracteristicas del coche\n    color = \"Rojo\"\n    marca = \"Ferrari\"\n    modelo = \"Aventador\"\n    velocidad = 300\n    caballaje = 500\n    plazas = 2\n# Métodos, son acciones que hace el objeto, en (coche) (funciones)",
-        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "label": "nombreCompleto",
+        "kind": 2,
+        "importPath": "Avanzado.Paquetes.mispaquetes.herramientas",
+        "description": "Avanzado.Paquetes.mispaquetes.herramientas",
+        "peekOfCode": "def nombreCompleto(nombre,apellidos):\n    print(f\"Hola  {nombre} {apellidos}\")",
+        "detail": "Avanzado.Paquetes.mispaquetes.herramientas",
         "documentation": {}
     },
     {
-        "label": "coche",
+        "label": "probando",
+        "kind": 2,
+        "importPath": "Avanzado.Paquetes.mispaquetes.pruebas",
+        "description": "Avanzado.Paquetes.mispaquetes.pruebas",
+        "peekOfCode": "def probando():\n    print(\"Esto es una prueba de un modulo en un paquete\")",
+        "detail": "Avanzado.Paquetes.mispaquetes.pruebas",
+        "documentation": {}
+    },
+    {
+        "label": "usuarios",
         "kind": 5,
-        "importPath": "Avanzado.POO.Ejemplo_de_clase",
-        "description": "Avanzado.POO.Ejemplo_de_clase",
-        "peekOfCode": "coche = Coche()\nprint(coche.marca, coche.color, coche.marca)\ncoche.acelerar()\ncoche.acelerar()\nprint(coche.marca, coche.color, coche.velocidad)",
-        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "importPath": "Avanzado.Ordenar_listas",
+        "description": "Avanzado.Ordenar_listas",
+        "peekOfCode": "usuarios = [[4,\"Chanchito\"],[1,\"felipe\"],[5,\"Pulga\"]]\nusuarios.sort(key=lambda el: el[0],reverse=False)\nprint(usuarios)\n# nombre = []\n# # for usuario in usuarios:\n# #         nombre.append(usuario[1])\n# # print(nombre)\nprint(\"##################################################################\")\nnombres=[]\nnombres = [usuario[1] for usuario in usuarios]",
+        "detail": "Avanzado.Ordenar_listas",
+        "documentation": {}
+    },
+    {
+        "label": "nombres",
+        "kind": 5,
+        "importPath": "Avanzado.Ordenar_listas",
+        "description": "Avanzado.Ordenar_listas",
+        "peekOfCode": "nombres = [usuario[1] for usuario in usuarios]\nprint(nombres)",
+        "detail": "Avanzado.Ordenar_listas",
         "documentation": {}
     },
     {
@@ -729,24 +791,6 @@
         "description": "Avanzado.invertir",
         "peekOfCode": "frase_al_reves = \"\"\nfor char in a:\n    frase_al_reves = char + frase_al_reves\nlista.reverse()\nprint(frase_al_reves)\nprint(lista)",
         "detail": "Avanzado.invertir",
-        "documentation": {}
-    },
-    {
-        "label": "usuarios",
-        "kind": 5,
-        "importPath": "Avanzado.Ordenar_listas",
-        "description": "Avanzado.Ordenar_listas",
-        "peekOfCode": "usuarios = [[4,\"Chanchito\"],[1,\"felipe\"],[5,\"Pulga\"]]\nusuarios.sort(key=lambda el: el[0],reverse=False)\nprint(usuarios)\n# nombre = []\n# # for usuario in usuarios:\n# #         nombre.append(usuario[1])\n# # print(nombre)\nprint(\"##################################################################\")\nnombres=[]\nnombres = [usuario[1] for usuario in usuarios]",
-        "detail": "Avanzado.Ordenar_listas",
-        "documentation": {}
-    },
-    {
-        "label": "nombres",
-        "kind": 5,
-        "importPath": "Avanzado.Ordenar_listas",
-        "description": "Avanzado.Ordenar_listas",
-        "peekOfCode": "nombres = [usuario[1] for usuario in usuarios]\nprint(nombres)",
-        "detail": "Avanzado.Ordenar_listas",
         "documentation": {}
     },
     {
@@ -813,15 +857,6 @@
         "documentation": {}
     },
     {
-        "label": "matriz",
-        "kind": 5,
-        "importPath": "Basicos.ejemplo_matriz",
-        "description": "Basicos.ejemplo_matriz",
-        "peekOfCode": "matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nfilas=len(matriz)\nColumnas=len(matriz[0])\nfor filas in matriz:\n    print(matriz[filas][Columnas])\n    for Columnas in matriz:\n        print(matriz[filas][Columnas])\n        \"\"\"Ejemplo del 2021\"\"\"",
-        "detail": "Basicos.ejemplo_matriz",
-        "documentation": {}
-    },
-    {
         "label": "Recorrerlist",
         "kind": 2,
         "importPath": "Basicos.Ejercicio_con_listas",
@@ -873,6 +908,15 @@
         "description": "Basicos.Nummax",
         "peekOfCode": "retorno = DevuelveMax(num1,num2)\nprint(retorno)",
         "detail": "Basicos.Nummax",
+        "documentation": {}
+    },
+    {
+        "label": "matriz",
+        "kind": 5,
+        "importPath": "Basicos.ejemplo_matriz",
+        "description": "Basicos.ejemplo_matriz",
+        "peekOfCode": "matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nfilas=len(matriz)\nColumnas=len(matriz[0])\nfor filas in matriz:\n    print(matriz[filas][Columnas])\n    for Columnas in matriz:\n        print(matriz[filas][Columnas])\n        \"\"\"Ejemplo del 2021\"\"\"",
+        "detail": "Basicos.ejemplo_matriz",
         "documentation": {}
     },
     {
