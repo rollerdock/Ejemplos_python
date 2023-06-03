@@ -194,6 +194,63 @@
         "documentation": {}
     },
     {
+<<<<<<< HEAD
+        "label": "coche1",
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "isExtraImport": true,
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+=======
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+>>>>>>> 6da873efb56060ed39c42ef91c7f9607d627c84b
+        "documentation": {}
+    },
+    {
         "label": "pruebas",
         "importPath": "mispaquetes",
         "description": "mispaquetes",
@@ -207,15 +264,6 @@
         "description": "mispaquetes",
         "isExtraImport": true,
         "detail": "mispaquetes",
-        "documentation": {}
-    },
-    {
-        "label": "subprocess",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "subprocess",
-        "description": "subprocess",
-        "detail": "subprocess",
         "documentation": {}
     },
     {
@@ -516,6 +564,69 @@
         "documentation": {}
     },
     {
+        "label": "connect_db",
+        "kind": 2,
+        "importPath": "Avanzado.Flask.app",
+        "description": "Avanzado.Flask.app",
+        "peekOfCode": "def connect_db():\n    conn = sqlite3.connect('productos.db')\n    return conn\ndef close_db(conn):\n    conn.close()\ndef create_table():\n    conn = connect_db()\n    c = conn.cursor()\n    c.execute('''\n        CREATE TABLE IF NOT EXISTS productos (",
+        "detail": "Avanzado.Flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "close_db",
+        "kind": 2,
+        "importPath": "Avanzado.Flask.app",
+        "description": "Avanzado.Flask.app",
+        "peekOfCode": "def close_db(conn):\n    conn.close()\ndef create_table():\n    conn = connect_db()\n    c = conn.cursor()\n    c.execute('''\n        CREATE TABLE IF NOT EXISTS productos (\n            id INTEGER PRIMARY KEY AUTOINCREMENT,\n            nombre TEXT NOT NULL,\n            descripcion TEXT,",
+        "detail": "Avanzado.Flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "create_table",
+        "kind": 2,
+        "importPath": "Avanzado.Flask.app",
+        "description": "Avanzado.Flask.app",
+        "peekOfCode": "def create_table():\n    conn = connect_db()\n    c = conn.cursor()\n    c.execute('''\n        CREATE TABLE IF NOT EXISTS productos (\n            id INTEGER PRIMARY KEY AUTOINCREMENT,\n            nombre TEXT NOT NULL,\n            descripcion TEXT,\n            precio FLOAT NOT NULL\n        )",
+        "detail": "Avanzado.Flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Avanzado.Flask.app",
+        "description": "Avanzado.Flask.app",
+        "peekOfCode": "def index():\n    return render_template('index.html')\n@app.route('/agregar', methods=['GET', 'POST'])\ndef agregar():\n    if request.method == 'POST':\n        nombre = request.form['nombre']\n        descripcion = request.form['descripcion']\n        precio = request.form['precio']\n        conn = connect_db()\n        c = conn.cursor()",
+        "detail": "Avanzado.Flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "agregar",
+        "kind": 2,
+        "importPath": "Avanzado.Flask.app",
+        "description": "Avanzado.Flask.app",
+        "peekOfCode": "def agregar():\n    if request.method == 'POST':\n        nombre = request.form['nombre']\n        descripcion = request.form['descripcion']\n        precio = request.form['precio']\n        conn = connect_db()\n        c = conn.cursor()\n        c.execute('INSERT INTO productos (nombre, descripcion, precio) VALUES (?, ?, ?)', (nombre, descripcion, precio))\n        conn.commit()\n        close_db(conn)",
+        "detail": "Avanzado.Flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "ver_productos",
+        "kind": 2,
+        "importPath": "Avanzado.Flask.app",
+        "description": "Avanzado.Flask.app",
+        "peekOfCode": "def ver_productos():\n    conn = connect_db()\n    c = conn.cursor()\n    c.execute('SELECT * FROM productos')\n    productos = c.fetchall()\n    close_db(conn)\n    return render_template('ver_productos.html', productos=productos)\nif __name__ == '__main__':\n    create_table()\n    app.run(debug=True)",
+        "detail": "Avanzado.Flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Avanzado.Flask.app",
+        "description": "Avanzado.Flask.app",
+        "peekOfCode": "app = Flask(__name__)\ndef connect_db():\n    conn = sqlite3.connect('productos.db')\n    return conn\ndef close_db(conn):\n    conn.close()\ndef create_table():\n    conn = connect_db()\n    c = conn.cursor()\n    c.execute('''",
+        "detail": "Avanzado.Flask.app",
+        "documentation": {}
+    },
+    {
         "label": "lista",
         "kind": 5,
         "importPath": "Avanzado.MANEJO_ERRORES.capturando_errores",
@@ -525,21 +636,57 @@
         "documentation": {}
     },
     {
-        "label": "nombreCompleto",
-        "kind": 2,
-        "importPath": "Avanzado.Paquetes.mispaquetes.herramientas",
-        "description": "Avanzado.Paquetes.mispaquetes.herramientas",
-        "peekOfCode": "def nombreCompleto(nombre,apellidos):\n    print(f\"Hola  {nombre} {apellidos}\")",
-        "detail": "Avanzado.Paquetes.mispaquetes.herramientas",
+        "label": "Coche",
+        "kind": 6,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "class Coche:\n    # Atributos o propiedades (variables)\n    # caracteristicas del coche de la clase padre\n    ruedas = 4\n    volante = 1\n    def __init__ (self,color,plazas,cv,vel,marca,modelo):\n        self.color = color\n        self.plazas = plazas\n        self.cv = cv\n        self.vel = vel",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
         "documentation": {}
     },
     {
-        "label": "probando",
+        "label": "acelerar",
         "kind": 2,
-        "importPath": "Avanzado.Paquetes.mispaquetes.pruebas",
-        "description": "Avanzado.Paquetes.mispaquetes.pruebas",
-        "peekOfCode": "def probando():\n    print(\"Esto es una prueba de un modulo en un paquete\")",
-        "detail": "Avanzado.Paquetes.mispaquetes.pruebas",
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def acelerar(cls):\n    self.velocidad += 1\ndef frenar(cls):\n    self.velocidad -= 1\ndef getVelocidad(cls):\n    return self.velocidad\n# metodos de instancia\ndef getColor(self):\n    print(coche.color)\n# # Crear objetos",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "frenar",
+        "kind": 2,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def frenar(cls):\n    self.velocidad -= 1\ndef getVelocidad(cls):\n    return self.velocidad\n# metodos de instancia\ndef getColor(self):\n    print(coche.color)\n# # Crear objetos\ncoche1 = Coche(\"rojo\",\"2\",300,350,\"Lamborgini\",\"Diablo\")\nprint(f\"El coche es de la marca {coche1.marca} y modelo {coche1.modelo} \\n\")",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "getVelocidad",
+        "kind": 2,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def getVelocidad(cls):\n    return self.velocidad\n# metodos de instancia\ndef getColor(self):\n    print(coche.color)\n# # Crear objetos\ncoche1 = Coche(\"rojo\",\"2\",300,350,\"Lamborgini\",\"Diablo\")\nprint(f\"El coche es de la marca {coche1.marca} y modelo {coche1.modelo} \\n\")\nprint(f\"Es de color {coche1.color}\\n\")\nprint(f\"Tiene {coche1.ruedas} y {coche1.volante} volante\\n\")",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "getColor",
+        "kind": 2,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "def getColor(self):\n    print(coche.color)\n# # Crear objetos\ncoche1 = Coche(\"rojo\",\"2\",300,350,\"Lamborgini\",\"Diablo\")\nprint(f\"El coche es de la marca {coche1.marca} y modelo {coche1.modelo} \\n\")\nprint(f\"Es de color {coche1.color}\\n\")\nprint(f\"Tiene {coche1.ruedas} y {coche1.volante} volante\\n\")\ncoche1.acelerar()\ncoche1.acelerar()\nprint(coche1.vel)",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+        "documentation": {}
+    },
+    {
+        "label": "coche1",
+        "kind": 5,
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "coche1 = Coche(\"rojo\",\"2\",300,350,\"Lamborgini\",\"Diablo\")\nprint(f\"El coche es de la marca {coche1.marca} y modelo {coche1.modelo} \\n\")\nprint(f\"Es de color {coche1.color}\\n\")\nprint(f\"Tiene {coche1.ruedas} y {coche1.volante} volante\\n\")\ncoche1.acelerar()\ncoche1.acelerar()\nprint(coche1.vel)",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
         "documentation": {}
     },
     {
@@ -687,21 +834,37 @@
         "documentation": {}
     },
     {
+<<<<<<< HEAD
+        "label": "nombreCompleto",
+        "kind": 2,
+        "importPath": "Avanzado.Paquetes.mispaquetes.herramientas",
+        "description": "Avanzado.Paquetes.mispaquetes.herramientas",
+        "peekOfCode": "def nombreCompleto(nombre,apellidos):\n    print(f\"Hola  {nombre} {apellidos}\")",
+        "detail": "Avanzado.Paquetes.mispaquetes.herramientas",
+        "documentation": {}
+    },
+    {
+        "label": "probando",
+        "kind": 2,
+        "importPath": "Avanzado.Paquetes.mispaquetes.pruebas",
+        "description": "Avanzado.Paquetes.mispaquetes.pruebas",
+        "peekOfCode": "def probando():\n    print(\"Esto es una prueba de un modulo en un paquete\")",
+        "detail": "Avanzado.Paquetes.mispaquetes.pruebas",
+=======
         "label": "Coche",
         "kind": 6,
         "importPath": "Avanzado.POO.Ejemplo_de_clase",
         "description": "Avanzado.POO.Ejemplo_de_clase",
-        "peekOfCode": "class Coche:\n    # Atributos o propiedades (variables)\n    # caracteristicas del coche\n    color = \"Rojo\"\n    marca = \"Ferrari\"\n    modelo = \"Aventador\"\n    velocidad = 300\n    caballaje = 500\n    plazas = 2\ncoche = Coche()",
+        "peekOfCode": "class Coche:\n    # Atributos o propiedades (variables)\n    # caracteristicas del coche\n    color = \"Rojo\"\n    marca = \"Ferrari\"\n    modelo = \"Aventador\"\n    velocidad = 300\n    caballaje = 500\n    plazas = 2\n<<<<<<< HEAD",
         "detail": "Avanzado.POO.Ejemplo_de_clase",
         "documentation": {}
     },
     {
-<<<<<<< HEAD
         "label": "acelerar",
         "kind": 2,
         "importPath": "Avanzado.POO.Ejemplo_de_clase",
         "description": "Avanzado.POO.Ejemplo_de_clase",
-        "peekOfCode": "def acelerar(self):\n    self.velocidad += 1\ndef frenar(self):\n    self.velocidad -= 1\ndef getVelocidad(self):\n    return self.velocidad\n# Fin definición clase\n# Crear objetos\nprint(coche.marca, coche.color, coche.velocidad)\ncoche.acelerar()",
+        "peekOfCode": "def acelerar(self):\n    self.velocidad += 1\ndef frenar(self):\n    self.velocidad -= 1\ndef getVelocidad(self):\n    return self.velocidad\n=======\n# Métodos, son acciones que hace el objeto, en (coche) (funciones)\n    def acelerar(self):\n        self.velocidad += 1",
         "detail": "Avanzado.POO.Ejemplo_de_clase",
         "documentation": {}
     },
@@ -710,7 +873,7 @@
         "kind": 2,
         "importPath": "Avanzado.POO.Ejemplo_de_clase",
         "description": "Avanzado.POO.Ejemplo_de_clase",
-        "peekOfCode": "def frenar(self):\n    self.velocidad -= 1\ndef getVelocidad(self):\n    return self.velocidad\n# Fin definición clase\n# Crear objetos\nprint(coche.marca, coche.color, coche.velocidad)\ncoche.acelerar()\ncoche.acelerar()\nprint(coche.marca, coche.color, coche.velocidad)",
+        "peekOfCode": "def frenar(self):\n    self.velocidad -= 1\ndef getVelocidad(self):\n    return self.velocidad\n=======\n# Métodos, son acciones que hace el objeto, en (coche) (funciones)\n    def acelerar(self):\n        self.velocidad += 1\n    def frenar(self):\n        self.velocidad -= 1",
         "detail": "Avanzado.POO.Ejemplo_de_clase",
         "documentation": {}
     },
@@ -719,22 +882,42 @@
         "kind": 2,
         "importPath": "Avanzado.POO.Ejemplo_de_clase",
         "description": "Avanzado.POO.Ejemplo_de_clase",
-        "peekOfCode": "def getVelocidad(self):\n    return self.velocidad\n# Fin definición clase\n# Crear objetos\nprint(coche.marca, coche.color, coche.velocidad)\ncoche.acelerar()\ncoche.acelerar()\nprint(coche.marca, coche.color, coche.velocidad)",
+        "peekOfCode": "def getVelocidad(self):\n    return self.velocidad\n=======\n# Métodos, son acciones que hace el objeto, en (coche) (funciones)\n    def acelerar(self):\n        self.velocidad += 1\n    def frenar(self):\n        self.velocidad -= 1\n    def getVelocidad(self):\n        return self.velocidad",
         "detail": "Avanzado.POO.Ejemplo_de_clase",
+>>>>>>> 6da873efb56060ed39c42ef91c7f9607d627c84b
         "documentation": {}
     },
     {
+        "label": "usuarios",
+        "kind": 5,
+<<<<<<< HEAD
+        "importPath": "Avanzado.Ordenar_listas",
+        "description": "Avanzado.Ordenar_listas",
+        "peekOfCode": "usuarios = [[4,\"Chanchito\"],[1,\"felipe\"],[5,\"Pulga\"]]\nusuarios.sort(key=lambda el: el[0],reverse=False)\nprint(usuarios)\n# nombre = []\n# # for usuario in usuarios:\n# #         nombre.append(usuario[1])\n# # print(nombre)\nprint(\"##################################################################\")\nnombres=[]\nnombres = [usuario[1] for usuario in usuarios]",
+        "detail": "Avanzado.Ordenar_listas",
+        "documentation": {}
+    },
+    {
+        "label": "nombres",
+        "kind": 5,
+        "importPath": "Avanzado.Ordenar_listas",
+        "description": "Avanzado.Ordenar_listas",
+        "peekOfCode": "nombres = [usuario[1] for usuario in usuarios]\nprint(nombres)",
+        "detail": "Avanzado.Ordenar_listas",
 =======
->>>>>>> bd3604bc27878e971093e1835c0677641d1a452f
+        "importPath": "Avanzado.POO.Ejemplo_de_clase",
+        "description": "Avanzado.POO.Ejemplo_de_clase",
+        "peekOfCode": "coche = Coche()\n# Métodos, son acciones que hace el objeto, en (coche) (funciones)\ndef acelerar(self):\n    self.velocidad += 1\ndef frenar(self):\n    self.velocidad -= 1\ndef getVelocidad(self):\n    return self.velocidad\n=======\n# Métodos, son acciones que hace el objeto, en (coche) (funciones)",
+        "detail": "Avanzado.POO.Ejemplo_de_clase",
+>>>>>>> 6da873efb56060ed39c42ef91c7f9607d627c84b
+        "documentation": {}
+    },
+    {
         "label": "coche",
         "kind": 5,
         "importPath": "Avanzado.POO.Ejemplo_de_clase",
         "description": "Avanzado.POO.Ejemplo_de_clase",
-<<<<<<< HEAD
-        "peekOfCode": "coche = Coche()\n# Métodos, son acciones que hace el objeto, en (coche) (funciones)\ndef acelerar(self):\n    self.velocidad += 1\ndef frenar(self):\n    self.velocidad -= 1\ndef getVelocidad(self):\n    return self.velocidad\n# Fin definición clase\n# Crear objetos",
-=======
-        "peekOfCode": "coche = Coche()\nprint(coche.marca, coche.color, coche.marca)\ncoche.acelerar()\ncoche.acelerar()\nprint(coche.marca, coche.color, coche.velocidad)",
->>>>>>> bd3604bc27878e971093e1835c0677641d1a452f
+        "peekOfCode": "coche = Coche()\n<<<<<<< HEAD\nprint(coche.marca, coche.color, coche.velocidad)\ncoche1.acelerar()\ncoche1.acelerar()\n=======\nprint(coche.marca, coche.color, coche.marca)\ncoche.acelerar()\ncoche.acelerar()\n>>>>>>> bd3604bc27878e971093e1835c0677641d1a452f",
         "detail": "Avanzado.POO.Ejemplo_de_clase",
         "documentation": {}
     },
@@ -743,52 +926,25 @@
         "kind": 6,
         "importPath": "Avanzado.POO.libros",
         "description": "Avanzado.POO.libros",
-        "peekOfCode": "class Libro:\n    def __init__(self, titulo, autor, num_hojas, tipo):\n        self.titulo = titulo\n        self.autor = autor\n        self.num_hojas = num_hojas\n        self.tipo = tipo\nQuijote = Libro(titulo=\"none\", autor=\"none\", num_hojas=0, tipo=\"Libro\")\nQuijote.titulo = \"Quijote\"\nQuijote.autor = \"Miguel de cervantes\"\nQuijote.num_hojas = 456",
+        "peekOfCode": "class Libro:\n    def __init__(self, titulo, autor, num_hojas):\n        self.titulo = titulo\n        self.autor = autor\n        self.num_hojas = num_hojas\n        self.tipo = \"libro\"\nclass Revista(Libro):\n    def __init__(self, titulo, autor, num_hojas, editorial, color, sello):\n        super().__init__(titulo, autor, num_hojas)\n        self.editorial = editorial",
         "detail": "Avanzado.POO.libros",
         "documentation": {}
     },
     {
-        "label": "Quijote",
-        "kind": 5,
+        "label": "Revista",
+        "kind": 6,
         "importPath": "Avanzado.POO.libros",
         "description": "Avanzado.POO.libros",
-        "peekOfCode": "Quijote = Libro(titulo=\"none\", autor=\"none\", num_hojas=0, tipo=\"Libro\")\nQuijote.titulo = \"Quijote\"\nQuijote.autor = \"Miguel de cervantes\"\nQuijote.num_hojas = 456\nQuijote.tipo = \"Novela Historica\"\nprint(f\" Titulo: {Quijote.titulo}\\n Autor: {Quijote.autor}\\n Numero de hojas: {Quijote.num_hojas}\\n Tipo: {Quijote.tipo}\")",
+        "peekOfCode": "class Revista(Libro):\n    def __init__(self, titulo, autor, num_hojas, editorial, color, sello):\n        super().__init__(titulo, autor, num_hojas)\n        self.editorial = editorial\n        self.color = color\n        self.sello = sello\nrevista = Revista(\"Alturas\", \"Merico Merini\", 133,\"Editorial XYZ\", \"Rojo\", \"Sello A\")",
         "detail": "Avanzado.POO.libros",
         "documentation": {}
     },
     {
-        "label": "Quijote.titulo",
+        "label": "revista",
         "kind": 5,
         "importPath": "Avanzado.POO.libros",
         "description": "Avanzado.POO.libros",
-        "peekOfCode": "Quijote.titulo = \"Quijote\"\nQuijote.autor = \"Miguel de cervantes\"\nQuijote.num_hojas = 456\nQuijote.tipo = \"Novela Historica\"\nprint(f\" Titulo: {Quijote.titulo}\\n Autor: {Quijote.autor}\\n Numero de hojas: {Quijote.num_hojas}\\n Tipo: {Quijote.tipo}\")",
-        "detail": "Avanzado.POO.libros",
-        "documentation": {}
-    },
-    {
-        "label": "Quijote.autor",
-        "kind": 5,
-        "importPath": "Avanzado.POO.libros",
-        "description": "Avanzado.POO.libros",
-        "peekOfCode": "Quijote.autor = \"Miguel de cervantes\"\nQuijote.num_hojas = 456\nQuijote.tipo = \"Novela Historica\"\nprint(f\" Titulo: {Quijote.titulo}\\n Autor: {Quijote.autor}\\n Numero de hojas: {Quijote.num_hojas}\\n Tipo: {Quijote.tipo}\")",
-        "detail": "Avanzado.POO.libros",
-        "documentation": {}
-    },
-    {
-        "label": "Quijote.num_hojas",
-        "kind": 5,
-        "importPath": "Avanzado.POO.libros",
-        "description": "Avanzado.POO.libros",
-        "peekOfCode": "Quijote.num_hojas = 456\nQuijote.tipo = \"Novela Historica\"\nprint(f\" Titulo: {Quijote.titulo}\\n Autor: {Quijote.autor}\\n Numero de hojas: {Quijote.num_hojas}\\n Tipo: {Quijote.tipo}\")",
-        "detail": "Avanzado.POO.libros",
-        "documentation": {}
-    },
-    {
-        "label": "Quijote.tipo",
-        "kind": 5,
-        "importPath": "Avanzado.POO.libros",
-        "description": "Avanzado.POO.libros",
-        "peekOfCode": "Quijote.tipo = \"Novela Historica\"\nprint(f\" Titulo: {Quijote.titulo}\\n Autor: {Quijote.autor}\\n Numero de hojas: {Quijote.num_hojas}\\n Tipo: {Quijote.tipo}\")",
+        "peekOfCode": "revista = Revista(\"Alturas\", \"Merico Merini\", 133,\"Editorial XYZ\", \"Rojo\", \"Sello A\")",
         "detail": "Avanzado.POO.libros",
         "documentation": {}
     },
@@ -838,20 +994,17 @@
         "documentation": {}
     },
     {
+<<<<<<< HEAD
+=======
         "label": "usuarios",
         "kind": 5,
         "importPath": "Avanzado.Ordenar_listas",
         "description": "Avanzado.Ordenar_listas",
-<<<<<<< HEAD
         "peekOfCode": "usuarios = [[4,\"Chanchito\"],[1,\"felipe\"],[5,\"Pulga\"]]\nnombres2 = []\n#nombres2 = [expresion for item (que estamos iterando) in items (la lista ) ]\nnombres2 = [usuario for usuario in usuarios if (usuario[0] > 2)]\n# Ojo porque como a la expresión if (usuario[0] > 2)] le pases usuario[1] al ser un \"chart\" te dará error.\nprint(nombres2)\nnombres2 = [usuario[1] for usuario in usuarios if (usuario[0] > 2)]\nprint(\"##################################################################\")\nprint(nombres2)\nprint(\" ##################### Ejemplos con map y filter #########################\")",
-=======
-        "peekOfCode": "usuarios = [[4,\"Chanchito\"],[1,\"felipe\"],[5,\"Pulga\"]]\nusuarios.sort(key=lambda el: el[0],reverse=False)\nprint(usuarios)\n# nombre = []\n# # for usuario in usuarios:\n# #         nombre.append(usuario[1])\n# # print(nombre)\nprint(\"##################################################################\")\nnombres=[]\nnombres = [usuario[1] for usuario in usuarios]",
->>>>>>> bd3604bc27878e971093e1835c0677641d1a452f
         "detail": "Avanzado.Ordenar_listas",
         "documentation": {}
     },
     {
-<<<<<<< HEAD
         "label": "nombres2",
         "kind": 5,
         "importPath": "Avanzado.Ordenar_listas",
@@ -911,17 +1064,11 @@
         "importPath": "Avanzado.Ordenar_listas",
         "description": "Avanzado.Ordenar_listas",
         "peekOfCode": "nombres4 = list(filter(lambda usuario: usuario[0]>2,usuarios))\nprint(nombres4)",
-=======
-        "label": "nombres",
-        "kind": 5,
-        "importPath": "Avanzado.Ordenar_listas",
-        "description": "Avanzado.Ordenar_listas",
-        "peekOfCode": "nombres = [usuario[1] for usuario in usuarios]\nprint(nombres)",
->>>>>>> bd3604bc27878e971093e1835c0677641d1a452f
         "detail": "Avanzado.Ordenar_listas",
         "documentation": {}
     },
     {
+>>>>>>> 6da873efb56060ed39c42ef91c7f9607d627c84b
         "label": "ComPalindromo",
         "kind": 2,
         "importPath": "Avanzado.palindromo",
@@ -937,6 +1084,42 @@
         "description": "Avanzado.palindromo",
         "peekOfCode": "a = \"Amo la paloma\"\ndef ComPalindromo(a):\n    b = a\n    a = a.replace(\" \",\"\")    \n    a = a[::-1]\n    a = a.lower() \n    b = b.replace(\" \",\"\")\n    b = b.lower() \n    if b == a:\n        print(\"Es un palindromo\")",
         "detail": "Avanzado.palindromo",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Avanzado.subproces",
+        "description": "Avanzado.subproces",
+        "peekOfCode": "a = 0\ni = 0\nz = i\nnumcarpetas = int(input(\"Cuantas carpetas quieres: \"))\nfor num in range(0, numcarpetas):\n    nom = \"dir\"+str(z)\n    subprocess.run(['cd', nom])\n    subprocess.call(['mkdir', nom])\n    print(subprocess.call('pwd'))\n    subprocess.run(['cd', nom])",
+        "detail": "Avanzado.subproces",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Avanzado.subproces",
+        "description": "Avanzado.subproces",
+        "peekOfCode": "i = 0\nz = i\nnumcarpetas = int(input(\"Cuantas carpetas quieres: \"))\nfor num in range(0, numcarpetas):\n    nom = \"dir\"+str(z)\n    subprocess.run(['cd', nom])\n    subprocess.call(['mkdir', nom])\n    print(subprocess.call('pwd'))\n    subprocess.run(['cd', nom])\n    print(subprocess.call('pwd'))",
+        "detail": "Avanzado.subproces",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Avanzado.subproces",
+        "description": "Avanzado.subproces",
+        "peekOfCode": "z = i\nnumcarpetas = int(input(\"Cuantas carpetas quieres: \"))\nfor num in range(0, numcarpetas):\n    nom = \"dir\"+str(z)\n    subprocess.run(['cd', nom])\n    subprocess.call(['mkdir', nom])\n    print(subprocess.call('pwd'))\n    subprocess.run(['cd', nom])\n    print(subprocess.call('pwd'))\n    i += 1",
+        "detail": "Avanzado.subproces",
+        "documentation": {}
+    },
+    {
+        "label": "numcarpetas",
+        "kind": 5,
+        "importPath": "Avanzado.subproces",
+        "description": "Avanzado.subproces",
+        "peekOfCode": "numcarpetas = int(input(\"Cuantas carpetas quieres: \"))\nfor num in range(0, numcarpetas):\n    nom = \"dir\"+str(z)\n    subprocess.run(['cd', nom])\n    subprocess.call(['mkdir', nom])\n    print(subprocess.call('pwd'))\n    subprocess.run(['cd', nom])\n    print(subprocess.call('pwd'))\n    i += 1\n    z = i",
+        "detail": "Avanzado.subproces",
         "documentation": {}
     },
     {
@@ -982,15 +1165,6 @@
         "description": "Basicos.Comprueba_si_lista_vacia",
         "peekOfCode": "variable = \"Llenamos la variable con minusculas\"\nif variable:\n    print (\"Llena \\n \")\n    print(variable.upper())\nelse:\n    print(\"vacia\")",
         "detail": "Basicos.Comprueba_si_lista_vacia",
-        "documentation": {}
-    },
-    {
-        "label": "matriz",
-        "kind": 5,
-        "importPath": "Basicos.ejemplo_matriz",
-        "description": "Basicos.ejemplo_matriz",
-        "peekOfCode": "matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nfilas=len(matriz)\nColumnas=len(matriz[0])\nfor filas in matriz:\n    print(matriz[filas][Columnas])\n    for Columnas in matriz:\n        print(matriz[filas][Columnas])\n        \"\"\"Ejemplo del 2021\"\"\"",
-        "detail": "Basicos.ejemplo_matriz",
         "documentation": {}
     },
     {
@@ -1045,6 +1219,15 @@
         "description": "Basicos.Nummax",
         "peekOfCode": "retorno = DevuelveMax(num1,num2)\nprint(retorno)",
         "detail": "Basicos.Nummax",
+        "documentation": {}
+    },
+    {
+        "label": "matriz",
+        "kind": 5,
+        "importPath": "Basicos.ejemplo_matriz",
+        "description": "Basicos.ejemplo_matriz",
+        "peekOfCode": "matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nfilas=len(matriz)\nColumnas=len(matriz[0])\nfor filas in matriz:\n    print(matriz[filas][Columnas])\n    for Columnas in matriz:\n        print(matriz[filas][Columnas])\n        \"\"\"Ejemplo del 2021\"\"\"",
+        "detail": "Basicos.ejemplo_matriz",
         "documentation": {}
     },
     {
